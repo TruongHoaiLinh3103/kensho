@@ -1,0 +1,82 @@
+.Form{
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Form-form_item{
+    width: 800px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.Form-form_item input{
+    width: 100%;
+    height: 40px;
+}
+.Form-form_item textarea, .Form-form_item input{
+    background-color: #f5f8fa;
+    color: #33475b;
+    font-size: 15px;
+    font-family: proxima-nova;
+    line-height: 22px;
+    padding: 9px 10px;
+    border: 1px solid #c8e5f9;
+    outline: none;
+    caret-color: red;
+}
+.Form-form_item_label{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0px 0px 5px;
+}
+.Form-form_item_label span{
+    color: red;
+    font-size: 10px;
+    margin-left: 3px;
+}
+.Form-form_rules{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    margin-left: 30px;
+}
+.Form-form_rules input{
+    margin-right: 10px;
+    accent-color: blue;
+    cursor: pointer;
+}
+.Form-form_rules p{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 13px;
+    line-height: 20.8px;
+}
+.Form-form_item button{
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    font-family: proxima-nova;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 21.92px;
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    transition: all .5s linear;
+    background-color: #33475b;
+    cursor: pointer;
+}
+.Form-form_item button:hover{
+    background-color: var(--my-color);
+    color: #444444;
+}
+@media only screen and (max-width: 63.9375em){
+    .Form-form_item{
+        width: auto;
+    }
+}

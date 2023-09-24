@@ -1,0 +1,45 @@
+.Footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    place-items: center;
+}
+.Footer-box_logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Footer-box_logo img{
+    width: 150px;
+}
+.Footer-box_prfile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.Footer-box_prfile_item{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+}
+.Prfile_item-detail h3{
+    color: #ffffff;
+    font-family: proxima-nova;
+    font-size: 12.35px;
+    letter-spacing: 1.729px;
+    line-height: 17.29px;
+    margin: 0px 0px 6px;
+    text-transform: uppercase;
+}
+.Prfile_item-detail p, .Footer-box_year p{
+    color: #888888;
+    font-size: 13px;
+    line-height: 26px;
+}
+.Footer-box_year{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

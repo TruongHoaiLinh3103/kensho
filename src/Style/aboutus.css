@@ -1,0 +1,90 @@
+.Aboutus{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Aboutus_item, .Aboutus_video{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Aboutus_item{
+    background-color: #00728f;
+    padding: 0px 50px;
+    flex-direction: column;
+}
+.Aboutus_item h3{
+    color: #ffffff;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0px 0px 90px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-bottom: 30px;
+}
+.Aboutus_item h1{
+    color: #ffffff;
+    font-family: proxima-nova;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    padding: 0px 0px 40px;
+    user-select: none;
+}
+.Aboutus_item p{
+    color: #ffffff;
+    font-family: proxima-nova;
+    font-size: 24px;
+    line-height: 30px;
+    user-select: none;
+}
+.Aboutus_item button{
+    width: 300px;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: 300;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: #00728f;
+    color: #ffffff;
+    transition: all .4s linear;
+}
+.Aboutus_item button:hover{
+    filter: grayscale(80%);
+}
+.Aboutus_item-detail{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.Aboutus_item-detail h1{
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.Aboutus_item_chidren{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item_chidren-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 30px;
+}
+.item_chidren-detail h1{
+    padding: 0px;
+}
+.Aboutus_video{
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+.Aboutus_video video{
+    width: 1500px;
+    object-fit: contain;
+}

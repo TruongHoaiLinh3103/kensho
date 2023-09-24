@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+:root{
+    --my-color: #00b9e8;
+}
+.maxWidth1400px{
+    max-width: 100%;
+    width: 1400px;
+    margin: 0px auto;
+}
+.maxWidth1200px{
+    max-width: 100%;
+    width: 1200px;
+    margin: 0px auto;
+}
+.App{
+  overflow: hidden;
+}
+.App-margin{
+    margin-bottom: 30px;
+}
+
+@-webkit-keyframes scale-up-ver-top {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+  }
+  @keyframes scale-up-ver-top {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+    }
+  }

@@ -1,0 +1,21 @@
+.Picture{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Picture-item{
+    width: 245px;
+    height: 220px;
+    overflow: hidden;
+}
+.Picture-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-in-out .5s;
+}
+.Picture-item img:hover{
+    transform: scale(1.3);
+}

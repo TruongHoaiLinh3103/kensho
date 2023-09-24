@@ -1,0 +1,63 @@
+.BenefitsAndPerks{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.BenefitsAndPerks-body{
+
+}
+.BenefitsAndPerks-body h3{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0px 0px 50px;
+    text-transform: uppercase;
+}
+.BenefitsAndPerks-body_box{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+}
+.BenefitsAndPerks-body_box_item{
+    text-align: center;
+}
+.BenefitsAndPerks-body_box_item img{
+    width: 100px;
+    height: 100px;
+}
+.BenefitsAndPerks-body_box_item h4{
+    color: #0b008f;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 30px 0px 0px;
+}
+.BenefitsAndPerks-body_box_item p{
+    font-size: 18px;
+    line-height: 27px;
+    margin: 20px 0px 0px;
+}
+.BenefitsAndPerks-body-btn{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BenefitsAndPerks-body-btn button{
+    background-color: white;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid var(--my-color);
+    color: var(--my-color);
+    transition: all .3s linear;
+}
+.BenefitsAndPerks-body-btn button:hover{
+    background-color: var(--my-color);
+    color: white;
+}

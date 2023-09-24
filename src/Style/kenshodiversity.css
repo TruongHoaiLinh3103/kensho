@@ -1,0 +1,57 @@
+.KenshoDiversity{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.KenshoDiversity-body h3{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0px 0px 50px;
+    text-transform: uppercase;
+}
+.KenshoDiversity-body_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.KenshoDiversity-body_item{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.KenshoDiversity-body_item img{
+    width: 400px;
+}
+.KenshoDiversity-body_item p{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0px 0px 18px;
+}
+.KenshoDiversity-body_item_btn{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.KenshoDiversity-body_item_btn button{
+    background-color: white;
+    padding: 20px 60px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid var(--my-color);
+    color: var(--my-color);
+    transition: all .3s linear;
+}
+.KenshoDiversity-body_item_btn button:hover{
+    background-color: var(--my-color);
+    color: white;
+}
