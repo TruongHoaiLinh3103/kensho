@@ -1,0 +1,60 @@
+.Ava{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Ava-body h3{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0px 0px 50px;
+    text-transform: uppercase;
+}
+.Ava-body_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Ava-body_box_item{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.Ava-body_box_item h4{
+    margin: 0px 0px 30px;
+    color: #5d5d5d;
+    font-family: proxima-nova;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.Ava-body_box_item p{
+    margin-bottom: 10px;
+    color: #50afc6;
+    display: inline-block;
+    font-family: proxima-nova;
+    font-weight: 700;
+    line-height: 25.6px;
+    user-select: none;
+}
+.Ava-body_box_item_btn button{
+    padding: 5px 10px;
+    border: 1px var(--my-color) solid;
+    background-color: white;
+    color: var(--my-color);
+    cursor: pointer;
+    transition: .3s all ease-in;
+    border-radius: 3px;
+}
+.Ava-body_box_item_btn button:hover{
+    background-color: #50afc6;
+    color: white;
+}

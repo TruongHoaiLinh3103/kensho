@@ -7,6 +7,7 @@ import KenshoDiversity from '../../Layouts/KenshoDiversity/KenshoDiversity';
 import Picture from '../../Layouts/Picture/Picture';
 import BenefitsAndPerks from '../../Layouts/BenefitsAndPerks/BenefitsAndPerks';
 import Emloy from '../../Layouts/Emloy/Emloy';
+import Ava from '../../Layouts/Ava/Ava';
 const LifeatKensho = () => {
     return (
         <div>
@@ -18,6 +19,7 @@ const LifeatKensho = () => {
             <Picture/>
             <BenefitsAndPerks/>
             <Emloy/>
+            <Ava/>
         </div>
     );
 };
