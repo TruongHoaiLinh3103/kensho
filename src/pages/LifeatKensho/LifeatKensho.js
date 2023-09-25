@@ -6,6 +6,7 @@ import Culture from '../../Layouts/Culture/Culture';
 import KenshoDiversity from '../../Layouts/KenshoDiversity/KenshoDiversity';
 import Picture from '../../Layouts/Picture/Picture';
 import BenefitsAndPerks from '../../Layouts/BenefitsAndPerks/BenefitsAndPerks';
+import Emloy from '../../Layouts/Emloy/Emloy';
 const LifeatKensho = () => {
     return (
         <div>
@@ -16,6 +17,7 @@ const LifeatKensho = () => {
             <KenshoDiversity/>
             <Picture/>
             <BenefitsAndPerks/>
+            <Emloy/>
         </div>
     );
 };

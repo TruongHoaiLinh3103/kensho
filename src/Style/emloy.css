@@ -1,0 +1,110 @@
+.Emloy{
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+}
+.Emloy-body h3{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0px 0px 50px;
+    text-transform: uppercase;
+}
+.Emloy-body_box{
+    max-width: 100%;
+    height: 800px;
+    position: relative;
+}
+.Emloy-body_box > .Emloy-body_box_item{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 68, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Emloy-body_box_item_img{
+    width: 80%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.Emloy-body_box_item_img img{
+    width: 100px;
+    height: 100px;
+    user-select: none;
+}
+.Emloy-body_box_item_profile{
+    width: 80%;
+}
+.Emloy-body_box_item_profile p{
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.Emloy-body_box_item_profile_title{
+    display: flex;
+    align-items: center;
+}
+.Emloy-body_box_item_profile_title img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100vh;
+}
+.Emloy-body_box_item_profile_title_detail{
+    margin-left: 20px;
+}
+.Emloy-body_box_item_profile_title_detail h3{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 55px;
+    margin: 0px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.Emloy-body_box_item_profile_title_detail h5{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.Emloy-body-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.Emloy-body-btn button{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid var(--my-color);
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--my-color);
+    transition: .3s all ease-in;
+}
+.Emloy-body-btn button:hover{
+    background-color: var(--my-color);
+    color: white;
+}
+.Emloy-body-btn button:nth-child(1){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.Emloy-body-btn button:nth-child(2){
+    margin-left: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
