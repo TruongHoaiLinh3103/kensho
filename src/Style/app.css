@@ -6,7 +6,7 @@ body{
     position: relative;
 }
 :root{
-    --my-color: #00b9e8;
+    --my-color: #4f9aac;
 }
 .maxWidth1400px{
     max-width: 100%;

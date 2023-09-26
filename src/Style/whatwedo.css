@@ -1,0 +1,66 @@
+.WhatWeDo{
+    height: 700px;
+}
+.WhatWeDo-body{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.WhatWeDo-body_item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.WhatWeDo-body_item_prf h3{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0px 0px 90px;
+    text-transform: uppercase;
+}
+.WhatWeDo-body_item_prf h2{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    margin: 0px 0px 18px;
+}
+.WhatWeDo-body_item_prf p{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0px 0px 18px;
+}
+.WhatWeDo-body_item_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.WhatWeDo-body_item_btn button{
+    padding: 20px 40px;
+    background-color: var(--my-color);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    transition: .3s all linear;
+    border-radius: 5px;
+}
+.WhatWeDo-body_item_btn button:hover{
+    filter: grayscale(80%);
+}
+.WhatWeDo-body_item img{
+    width: 500px;
+    height: 500px;
+}
+.WhatWeDo-body_item_btn{
+
+}

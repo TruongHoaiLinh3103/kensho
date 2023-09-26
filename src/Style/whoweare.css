@@ -1,0 +1,49 @@
+.WhoWeAre{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.WhoWeAre-body:nth-child(1){
+    background-color: var(--my-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.WhoWeAre-body_item{
+    padding-left: 30px;
+}
+.WhoWeAre-body_item h3{
+    color:#ffffff;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0px 0px 90px;
+    text-transform: uppercase;
+}
+.WhoWeAre-body_item h2{
+    color:#ffffff;
+    font-family: proxima-nova;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 0px 0px 18px;
+}
+.WhoWeAre-body_item h5{
+    color: #ffffff;
+    font-family: proxima-nova;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0px 0px 18px;
+}
+.WhoWeAre-body_item p{
+    color: #ffffff;
+    font-family: proxima-nova;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 18px 0px;
+}
+.WhoWeAre-body img{
+    object-fit: cover;
+    height: 100%;
+}

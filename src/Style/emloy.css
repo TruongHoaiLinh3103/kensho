@@ -23,7 +23,7 @@
 .Emloy-body_box > .Emloy-body_box_item{
     width: 100%;
     height: 100%;
-    background-color: rgb(24, 68, 24);
+    background-color: var(--my-color);
     display: flex;
     align-items: center;
     justify-content: center;
