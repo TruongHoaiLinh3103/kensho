@@ -1,0 +1,31 @@
+.AboutKenshoSolutions{
+    background-color: var(--my-color);
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -31px;
+}
+.AboutKenshoSolutions-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.AboutKenshoSolutions-body h3{
+    color: #ffffff;
+    font-family: proxima-nova;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    padding: 0px 0px 40px;
+    text-align: center;
+}
+.AboutKenshoSolutions-body p{
+    color: #ffffff;
+    font-family: proxima-nova;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0px 0px 30px;
+}

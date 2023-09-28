@@ -46,6 +46,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.Slutiondata-body_data_item_colum div p{
+    margin-bottom: 30px;
+}
 .Slutiondata-body_data_item_colum div p, 
 .Slutiondata-body_data_item_colum p{
     font-family: proxima-nova;
