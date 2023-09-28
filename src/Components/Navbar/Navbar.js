@@ -31,10 +31,6 @@ const Navbar = () => {
                                 <li className="solutions-box_navbar_ul_line"></li>
                                 <li className="solutions-box_navbar_ul_li"><NavLink to='/solutions'>Extract</NavLink></li>
                                 <li className="solutions-box_navbar_ul_line"></li>
-                                <li className="solutions-box_navbar_ul_li"><NavLink to='/solutions'>Link</NavLink></li>
-                                <li className="solutions-box_navbar_ul_line"></li>
-                                <li className="solutions-box_navbar_ul_li"><NavLink to='/solutions'>Datasets</NavLink></li>
-                                <li className="solutions-box_navbar_ul_line"></li>
                             </ul>
                         </div>
                     </NavLink></li>

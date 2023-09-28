@@ -97,6 +97,7 @@
     background-color: var(--my-color);
     border: none;
     border-radius: 5px;
+    cursor: pointer;
     transition: .3s all linear;
 }
 .OurValuas-body_container_btn button:hover{

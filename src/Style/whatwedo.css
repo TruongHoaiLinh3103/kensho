@@ -1,5 +1,5 @@
 .WhatWeDo{
-    height: 700px;
+    height: 900px;
 }
 .WhatWeDo-body{
     height: 100%;
@@ -53,6 +53,7 @@
     font-size: 18px;
     transition: .3s all linear;
     border-radius: 5px;
+    cursor: pointer;
 }
 .WhatWeDo-body_item_btn button:hover{
     filter: grayscale(80%);
@@ -60,7 +61,4 @@
 .WhatWeDo-body_item img{
     width: 500px;
     height: 500px;
-}
-.WhatWeDo-body_item_btn{
-
 }

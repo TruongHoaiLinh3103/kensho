@@ -1,0 +1,32 @@
+.OurProduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+.OurProduct-body h3{
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0px 0px 90px;
+    text-transform: uppercase;
+}
+.OurProduct-body_box{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+}
+.OurProduct-body_box h4{
+    font-family: proxima-nova;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.OurProduct-body_box h5{
+    font-family: proxima-nova;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: normal;
+}

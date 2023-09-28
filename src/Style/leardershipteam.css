@@ -1,3 +1,9 @@
+.LeardershipTeam{
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .LeardershipTeam-body h3{
     color: #444444;
     font-family: proxima-nova;

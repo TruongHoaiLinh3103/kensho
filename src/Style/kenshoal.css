@@ -1,0 +1,90 @@
+.KenshoAL{
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.KenshoAL-body_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.KenshoAL-body_box h1{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 0px 0px 18px;
+    text-align: center;
+}
+.KenshoAL-body_box p{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 45px 0px;
+}
+.KenshoAL-body_box_ctn{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.KenshoAL-body_box_ctn img{
+    width: 350px;
+    height: 400px;
+    transition: all .5s ease-in-out;
+}
+.KenshoAL-body_box_ctn img:hover{
+    transform: scale(1.2);
+}
+
+.KenshoAL-body_teamImpact{
+    margin-top: 50px;
+}
+.KenshoAL-body_teamImpact h3{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0px 0px 50px;
+    text-transform: uppercase;
+}
+.KenshoAL-body_teamImpact_detail h4{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    margin: 0px 0px 18px;
+}
+.KenshoAL-body_teamImpact_detail p{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0px 0px 18px;
+}
+.teamImpact_detail_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teamImpact_detail_btn button{
+    background-color: white;
+    border: 1px solid var(--my-color);
+    padding: 20px 40px;
+    font-size: 18px;
+    color: var(--my-color);
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
+.teamImpact_detail_btn button:hover{
+    background-color: var(--my-color);
+    color: white;
+}
