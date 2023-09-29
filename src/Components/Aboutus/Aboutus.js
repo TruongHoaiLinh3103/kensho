@@ -1,25 +1,34 @@
 import React from 'react';
 import "../../Style/aboutus.css";
 import { ABOUTUS } from "../../Story/ABOUTUS";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import {
     HashRouter as Router,
     Switch,
     Route,
   } from "react-router-dom";
 const Aboutus = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1500,
+            easing : "ease-in"
+        })
+    }, [])
     return (
         <Router>
             <div className='Aboutus'>
                 <Switch>
                     <Route path="/" exact>
-                        <div className='Aboutus_item'>
+                        <div className='Aboutus_item' data-aos='fade-right'>
                             <h3>ABOUT US</h3>
                             <h1>Our AI Solutions unlock insights, enabling you to make decisions with conviction.</h1>
                             <p>In partnership with S&P Global, we have access to vast amounts of data, which we use to train and develop our machine learning algorithms and build data-centric solutions to the business world’s most pressing challenges.</p>
                         </div>
                     </Route>
                     <Route path="/lifeatkensho">
-                        <div className='Aboutus_item'>
+                        <div className='Aboutus_item' data-aos='fade-right'>
                             <h3>CAREERS</h3>
                             <div className='Aboutus_item-detail'>
                                 <h1>Our team is growing!</h1>
@@ -39,7 +48,7 @@ const Aboutus = () => {
                         </div>
                     </Route>
                 </Switch>
-                <div className='Aboutus_video'>
+                <div className='Aboutus_video' data-aos='fade-left'>
                     <video autoPlay loop muted poster="https://static.kensho.com/home/video/gradient-gel-enso.jpg">
                         <source src="https://static.kensho.com/home/video/gradient-gel-enso-vp9.webm" type="video/webm; codecs=&quot;vp9&quot;" />
                         <source src="https://static.kensho.com/home/video/gradient-gel-enso.mp4" type="video/mp4" />

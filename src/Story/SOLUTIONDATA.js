@@ -11,7 +11,8 @@ export const SOLUTIONDATA = [
         lifour: "Read about Scribe in our blog post,",
         aone: "Speech Recognition for Finance",
         atwo: "Developer Docs",
-        athree: "Contact Scribe"
+        athree: "Contact Scribe",
+        link: "https://blog.kensho.com/speech-recognition-for-finance-86983b2b97bd"
     },
     {
         id: 2,
@@ -38,6 +39,7 @@ export const SOLUTIONDATA = [
         aone: "Kensho Extract and the Value of Document Segmentation",
         atwo: "Developer Docs",
         athree: "Contact Extract",
+        link: "https://blog.kensho.com/kensho-extract-and-the-value-of-document-segmentation-c23f33f7a9c2"
     },
     {
         id: 4,
@@ -53,7 +55,8 @@ export const SOLUTIONDATA = [
         aone: " Unlocking the Potential of Unstructured Data.",
         atwo: "Developer Docs",
         athree: "Contact NERD",
-        afour: "Watch Demo"
+        afour: "Watch Demo",
+        link: "https://blog.kensho.com/kensho-nerd-unlocking-the-potential-of-unstructured-data-f75e69efcb1e"
     }
 
 ]

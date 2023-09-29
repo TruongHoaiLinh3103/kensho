@@ -1,9 +1,11 @@
 import React from 'react';
 import "../../Style/login.css";
+import useFetchAOS from '../../Utils/useFetchAOS';
 const Login = () => {
+    useFetchAOS();
     return (
         <div className="Login">
-            <form className="form">
+            <form className="form" data-aos="fade-up">
                 <div className="flex-column">
                     <label>Email </label>
                 </div>

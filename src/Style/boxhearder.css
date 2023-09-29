@@ -31,60 +31,6 @@
     text-align: center;
     user-select: none;
 }
-.Boxhearder_home h3{
-    z-index: 1;
-    color: #ffffff;
-    font-family: proxima-nova;
-    font-weight: 700;
-    letter-spacing: 2.24px;
-    line-height: 22px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 50px;
-    user-select: none;
-}
-.Boxhearder_home button{
-    background-color: #edf0f2;
-    border-radius: 100vh;
-    outline: none;
-    border: none;
-    z-index: 1;
-    cursor: pointer;
-    margin-top: 20px;
-    animation: btn-home linear 3s infinite;
-}
-.Boxhearder_home button:hover{
-    background-color: rgb(167, 242, 255);
-    transition: .1s all linear;
-}
-@-webkit-keyframes btn-home {
-    0%{
-        transform: translateY(-10px);
-    }
-    50%{
-        transform: translateY(20px);
-    }
-    100%{
-        transform: translateY(-10px);
-    }
-}
-@keyframes btn-home {
-    0%{
-        transform: translateY(-10px);
-    }
-    50%{
-        transform: translateY(20px);
-    }
-    100%{
-        transform: translateY(-10px);
-    }
-}
-.Boxhearder_home button i{
-    color: black;
-    font-size: 15px;
-    padding: 30px 5px;
-    cursor: pointer;
-}
 .Boxhearder_home p{
     color: #ffffff;
     width: 90%;

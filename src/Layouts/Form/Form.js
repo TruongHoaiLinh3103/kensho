@@ -1,6 +1,8 @@
 import React from 'react';
 import "../../Style/form.css";
+import useFetchAOS from '../../Utils/useFetchAOS';
 const Form = () => {
+    useFetchAOS();
     return (
         <div className='Form'>
             <form className='Form-form'>

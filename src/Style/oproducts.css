@@ -1,0 +1,107 @@
+.OProducts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    height: 1100px;
+}
+.OProducts-body h3{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0px 0px 50px;
+    text-transform: uppercase;
+}
+.OProducts-body_p{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.OProducts-body_p h4{
+    font-family: proxima-nova;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.OProducts-body_p p{
+    font-family: proxima-nova;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+}
+.OProducts-body_data{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.OProducts-body_data_item{
+    width: 400px;
+    height: 650px;
+    background-color: white;
+    border: 1px solid rgb(218, 218, 218);
+    margin: 20px;
+    padding: 30px;
+    position: relative;
+}
+.OProducts-body_data_item h5{
+    color: #0b008f;
+    font-family: proxima-nova;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 0px 0px 30px;
+}
+.OProducts-body_data_item h3{
+    font-family: proxima-nova;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    color: black;
+}
+.OProducts-body_data_item p{
+    font-family: proxima-nova;
+    font-size: 18px;
+    line-height: 27px;
+}
+.OProducts-body_data_item ul{
+    padding-left: 20px;
+}
+.OProducts-body_data_item ul li{
+    list-style: circle;
+    margin: 15px 0px;
+}
+.OProducts-body_data_item_btn{
+    position: absolute;
+    bottom: 40px;
+}
+.OProducts-body_data_item_btn button,
+.OProducts-body .OProducts-body_btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    color: var(--my-color);
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.OProducts-body_data_item_btn button:nth-child(1),
+.OProducts-body .OProducts-body_btn{
+    margin-right: 50px;
+    background-color: white;
+    border: 1px solid var(--my-color);
+}
+.OProducts-body_data_item_btn button:nth-child(1):hover,
+.OProducts-body .OProducts-body_btn:hover{
+    background-color: var(--my-color);
+    color: white;
+}
+.OProducts-body_data_item_btn button:nth-child(2){
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+}
+.OProducts-body_data_item_btn button:nth-child(2):hover{
+    border-bottom: 1px solid var(--my-color);
+}

@@ -27,8 +27,6 @@ const Boxhearder = () => {
                             <div className='Boxhearder Boxhearder_home' key={item.id}>
                                 <img src={item.img} alt=''/>
                                 <h1 data-aos="fade-up">{item.title}</h1>
-                                <h3 data-aos="fade-up">EXPLORE</h3>
-                                <button data-aos="fade-up"><i className="fa-solid fa-arrow-down"></i></button>
                                 <p data-aos="fade-right">The overwhelming majority of the world’s data has no standardized format.</p>
                                 <p data-aos="fade-left">Without structure, critical insights are hidden, and users are unable to make data-driven decisions.</p>
                             </div>

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import "../../Style/emloy.css";
 import { EMPLOYEETESTIMONIALS } from "../../Story/EMPLOYEETESTIMONIALS";
+import useFetchAOS from '../../Utils/useFetchAOS';
 const Emloy = () => {
+    useFetchAOS();
     const DATA = EMPLOYEETESTIMONIALS.length - 1;
     const [number, setNumber] = useState(0);
     const [maxma] = useState(1);
@@ -24,11 +26,11 @@ const Emloy = () => {
     return (
         <div className='Emloy'>
             <div className='maxWidth1400px Emloy-body'>
-                <h3>EMPLOYEE TESTIMONIALS</h3>
+                <h3 data-aos="fade-up">EMPLOYEE TESTIMONIALS</h3>
                 <div className='Emloy-body_box'>
                     {EMPLOYEETESTIMONIALS.map((item) => {
                         return(
-                            <div className='Emloy-body_box_item' key={item.id} style={{
+                            <div data-aos="fade-up" className='Emloy-body_box_item' key={item.id} style={{
                                 "--atualAtivo": item.id === number ? 1 : 0,
                                 "--compensacao": (number - item.id) / 3,
                                 "--direcao": Math.sign(number - item.id),
@@ -55,8 +57,8 @@ const Emloy = () => {
                     })}
                 </div>
                 <div className='Emloy-body-btn'>
-                    <button onClick={() => prev()}><i className="fa-solid fa-chevron-left"></i></button>
-                    <button onClick={() => next()}><i className="fa-solid fa-chevron-right"></i></button>
+                    <button data-aos="fade-right" onClick={() => prev()}><i className="fa-solid fa-chevron-left"></i></button>
+                    <button data-aos="fade-left" onClick={() => next()}><i className="fa-solid fa-chevron-right"></i></button>
                 </div>
             </div>
         </div>
