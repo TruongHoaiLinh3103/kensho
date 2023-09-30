@@ -38,17 +38,15 @@ const Navbar = () => {
                     <li className="navbar-Tabbar_li lifeatkensho-box"><NavLink to="/lifeatkensho">Life at Kensho
                         <div className='lifeatkensho-box_navbar'>
                             <ul className='lifeatkensho-box_navbar_ul'>
-                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/solutions'>Available Positions</NavLink></li>
+                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/lifeatkensho'>Available Positions</NavLink></li>
                                 <li className="lifeatkensho-box_navbar_ul_line"></li>
-                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/solutions'>Why Join Us?</NavLink></li>
+                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/lifeatkensho'>Why Join Us?</NavLink></li>
                                 <li className="lifeatkensho-box_navbar_ul_line"></li>
                                 <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/solutions'>DEI</NavLink></li>
                                 <li className="lifeatkensho-box_navbar_ul_line"></li>
                                 <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/solutions'>Benefits</NavLink></li>
                                 <li className="lifeatkensho-box_navbar_ul_line"></li>
                                 <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/solutions'>Impact</NavLink></li>
-                                <li className="lifeatkensho-box_navbar_ul_line"></li>
-                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/solutions'>Team</NavLink></li>
                                 <li className="lifeatkensho-box_navbar_ul_line"></li>
                             </ul>
                         </div>

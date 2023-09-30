@@ -81,7 +81,7 @@
     cursor: pointer;
 }
 
-.button-submit {
+input[type='submit'] {
     margin: 20px 0 10px 0;
     background-color: #151717;
     border: none;

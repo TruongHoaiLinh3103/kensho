@@ -1,7 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../../Style/freetrialapp.css";
 import useFetchAOS from '../../Utils/useFetchAOS';
 const FreeTrialapp = () => {
+    const [email, setEmail] = useState("");
+    const [checkemail, setCheckemail] = useState(true);
+    const changeEmail = (e) => {
+        setEmail(e.target.value);
+    }
+    const checkEmail = () => {
+        if(!email){
+            setCheckemail(false);
+        }
+        var regex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if(!regex.test(email)){
+            setCheckemail(false)
+        }else{
+            setCheckemail(true)
+        }
+    }
     useFetchAOS();
     return (
         <div className="FreeTrialapp">
@@ -19,10 +35,16 @@ const FreeTrialapp = () => {
                     <div className="FreeTrialapp-body_item-input">
                         <p data-aos="fade-left">Work Email</p>
                         <div className="item-input-WE">
-                            <input data-aos="fade-right" type='text' placeholder='Your email address'/>
+                            <input data-aos="fade-right" type='email' placeholder='Your email address' value={email} 
+                            onChange={(e) => changeEmail(e)} 
+                            onKeyDown={() => checkEmail()}
+                            onKeyUp={() => checkEmail()}
+                            />
                             <button data-aos="fade-left">Continute</button>
                         </div>
-                        <span data-aos="fade-up">Invalid email. Please try again.</span>
+                        <span data-aos="fade-up" style={{
+                            opacity: checkemail === false ? "1" : "0"
+                        }}>Invalid email. Please try again.</span>
                     </div>
                 </div>
             </div>
