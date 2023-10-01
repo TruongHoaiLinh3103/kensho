@@ -13,6 +13,14 @@ import LifeatKensho from "../pages/LifeatKensho/LifeatKensho";
 import Signin from "../pages/Signin/Signin";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import FreeTrial from "../pages/FreeTrial/FreeTrial";
+import Scribe from "../pages/Scribe/Scribe";
+import Nerd from "../pages/Nerd/Nerd";
+import Extract from "../pages/Extract/Extract";
+import Classify from "../pages/Classify/Classify";
+import Impact from "../pages/Impact/Impact";
+import Dei from "../pages/Dei/Dei";
+import Benefits from "../pages/Benefits/Benefits";
+import Not404Page from "../pages/Not404Page/Not404Page";
 function App() {
   return (
     <Router>
@@ -26,11 +34,32 @@ function App() {
             <Route path="/solutions">
               <Solutions />
             </Route>
+            <Route path="/scribe">
+              <Scribe/>
+            </Route>
+            <Route path="/classify">
+              <Classify />
+            </Route>
+            <Route path="/extract">
+              <Extract />
+            </Route>
+            <Route path="/nerd">
+              <Nerd />
+            </Route>
             <Route path="/about">
               <About />
             </Route>
             <Route path="/lifeatkensho">
               <LifeatKensho />
+            </Route>
+            <Route path="/dei">
+              <Dei/>
+            </Route>
+            <Route path="/benefits">
+              <Benefits/>
+            </Route>
+            <Route path="/impact">
+              <Impact/>
             </Route>
             <Route path="/signin">
               <Signin />
@@ -40,6 +69,9 @@ function App() {
             </Route>
             <Route path="/contactus">
               <ContactUs />
+            </Route>
+            <Route path="*">
+              <Not404Page />
             </Route>
           </Switch>
         </div>

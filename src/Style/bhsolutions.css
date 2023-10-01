@@ -1,0 +1,51 @@
+.BoxheaderSolutons{
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BoxheaderSolutons .BoxheaderSolutons-background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.BoxheaderSolutons-box{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.BoxheaderSolutons-box img{
+    width: 500px;
+}
+.BoxheaderSolutons-box p{
+    color: #ffffff;
+    font-family: proxima-nova;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 20px;
+}
+.BoxheaderSolutons-box button{
+    padding: 15px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #fff0;
+    border: 1px solid white;
+    color: white;
+    margin-top: 100px;
+    font-weight: 400;
+    transition: .4s all linear;
+    border-radius: 5px;
+}
+.BoxheaderSolutons-box button:hover{
+    background-color: var(--my-color);
+    border: 1px solid var(--my-color);
+}

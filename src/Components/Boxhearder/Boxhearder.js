@@ -81,6 +81,42 @@ const Boxhearder = () => {
                         )
                     })}
                 </Route>
+
+                <Route path="/dei">
+                    {BOXHEADER.map((item) => {
+                        return(
+                            item.id === 6 &&
+                            <div className='Boxhearder' key={item.id}>
+                                <img src={item.img} alt=''/>
+                                <h1 data-aos="fade-up">{item.title}</h1>
+                            </div>
+                        )
+                    })}
+                </Route>
+
+                <Route path="/benefits">
+                    {BOXHEADER.map((item) => {
+                        return(
+                            item.id === 7 &&
+                            <div className='Boxhearder' key={item.id}>
+                                <img src={item.img} alt=''/>
+                                <h1 data-aos="fade-up">{item.title}</h1>
+                            </div>
+                        )
+                    })}
+                </Route>
+
+                <Route path="/impact">
+                    {BOXHEADER.map((item) => {
+                        return(
+                            item.id === 8 &&
+                            <div className='Boxhearder' key={item.id}>
+                                <img src={item.img} alt=''/>
+                                <h1 data-aos="fade-up">{item.title}</h1>
+                            </div>
+                        )
+                    })}
+                </Route>
             </Switch>
         </Router>
     );

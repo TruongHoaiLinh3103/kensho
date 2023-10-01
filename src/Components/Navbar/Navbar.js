@@ -23,13 +23,13 @@ const Navbar = () => {
                             <ul className='solutions-box_navbar_ul'>
                                 <li className="solutions-box_navbar_ul_li"><NavLink to='/solutions'>All Slotions</NavLink></li>
                                 <li className="solutions-box_navbar_ul_line"></li>
-                                <li className="solutions-box_navbar_ul_li"><NavLink to='/solutions'>Scribe</NavLink></li>
+                                <li className="solutions-box_navbar_ul_li"><NavLink to='/scribe'>Scribe</NavLink></li>
                                 <li className="solutions-box_navbar_ul_line"></li>
-                                <li className="solutions-box_navbar_ul_li"><NavLink to='/solutions'>NERD</NavLink></li>
+                                <li className="solutions-box_navbar_ul_li"><NavLink to='/nerd'>NERD</NavLink></li>
                                 <li className="solutions-box_navbar_ul_line"></li>
-                                <li className="solutions-box_navbar_ul_li"><NavLink to='/solutions'>Classify</NavLink></li>
+                                <li className="solutions-box_navbar_ul_li"><NavLink to='/classify'>Classify</NavLink></li>
                                 <li className="solutions-box_navbar_ul_line"></li>
-                                <li className="solutions-box_navbar_ul_li"><NavLink to='/solutions'>Extract</NavLink></li>
+                                <li className="solutions-box_navbar_ul_li"><NavLink to='/extract'>Extract</NavLink></li>
                                 <li className="solutions-box_navbar_ul_line"></li>
                             </ul>
                         </div>
@@ -42,11 +42,11 @@ const Navbar = () => {
                                 <li className="lifeatkensho-box_navbar_ul_line"></li>
                                 <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/lifeatkensho'>Why Join Us?</NavLink></li>
                                 <li className="lifeatkensho-box_navbar_ul_line"></li>
-                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/solutions'>DEI</NavLink></li>
+                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/dei'>DEI</NavLink></li>
                                 <li className="lifeatkensho-box_navbar_ul_line"></li>
-                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/solutions'>Benefits</NavLink></li>
+                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/benefits'>Benefits</NavLink></li>
                                 <li className="lifeatkensho-box_navbar_ul_line"></li>
-                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/solutions'>Impact</NavLink></li>
+                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/impact'>Impact</NavLink></li>
                                 <li className="lifeatkensho-box_navbar_ul_line"></li>
                             </ul>
                         </div>
