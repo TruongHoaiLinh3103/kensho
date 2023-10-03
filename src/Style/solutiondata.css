@@ -38,6 +38,9 @@
     font-weight: 700;
     line-height: 22px;
 }
+.Slutiondata-body_data_item_colum div .discover-more{
+    text-align: center;
+}
 .Slutiondata-body_data_item_colum div h3{
     font-family: proxima-nova;
     font-size: 48px;
@@ -56,8 +59,14 @@
     line-height: 27px;
     text-align: left;
 }
-.Slutiondata-body_data_item_colum a,
-.Slutiondata-body_data_item_colum div a,
+.Slutiondata-body_data_item_colum button,
+.Slutiondata-body_data_item_colum div .btn_a{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.Slutiondata-body_data_item_colum button,
+.Slutiondata-body_data_item_colum div .btn_a,
 .Slutiondata-body_data_item_colum ul li p a{
     color: #007694;
     font-family: proxima-nova;
@@ -88,6 +97,7 @@
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .Slutiondata-body_data_item_colum-btn button{
     background-color: var(--my-color);

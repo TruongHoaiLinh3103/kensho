@@ -28,4 +28,12 @@ export const ABOUTSOLUTIONS = [
         p: "Simple optical character recognition (OCR) tools are outdated.",
         p2: "Whether you’re looking to make your financial documents machine readable, trying to join table data to your proprietary database, or looking for specific data points across multiple documents, Kensho Extract can help."
     },
+    {
+        id: 5,
+        h3: "Scribe AI",
+        p: "Kensho Scribe AI is a top-tier automated transcription tool for all audio, with specialization in business and finance.",
+        lione: "Transcribe audio files into human- and machine-readable text with sophisticated deep learning models.",
+        litwo: "Handle the complexities of business audio, including industry jargon, accents, numbers, currencies and product names, as well as the nuances of spoken language, including mumbling, stuttering and self correction.",
+        lithree: "Leverage S&P Global’s history of high-quality transcripts, including more than 100,000 hours of domain-specific audio and associated text."
+    },
 ]

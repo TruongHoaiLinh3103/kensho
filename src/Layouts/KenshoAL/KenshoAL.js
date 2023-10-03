@@ -2,8 +2,13 @@ import React from 'react';
 import "../../Style/kenshoal.css";
 import { KENSHOAL } from "../../Story/KENSHOAL";
 import useFetchAOS from '../../Utils/useFetchAOS';
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 const KenshoAL = () => {
     useFetchAOS();
+    const history = useHistory();
+    const nextImpact = () => {
+        history.push("/impact");
+    }
     return (
         <div className='KenshoAL'>
             <div className='maxWidth1400px KenshoAL-body'>
@@ -25,7 +30,7 @@ const KenshoAL = () => {
                         <p data-aos="fade-up">The cross-functional team currently has three working groups – Data Journalism, Environmental Impact and Educational Equity.</p>
                         <p data-aos="fade-up">These working groups have tackled projects large and small with a range of external partners and an eye towards initiatives that allow Kenshins to use their in-demand skills in data science, machine learning and software engineering and more to have maximum positive impact in their communities.</p>
                         <div className='teamImpact_detail_btn'>
-                            <button data-aos="fade-right">Read our Team Impact page</button>
+                            <button data-aos="fade-right" onClick={() => nextImpact()}>Read our Team Impact page</button>
                         </div>
                     </div>
                 </div>

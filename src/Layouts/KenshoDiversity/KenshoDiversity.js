@@ -1,8 +1,13 @@
 import React from 'react';
 import "../../Style/kenshodiversity.css";
 import useFetchAOS from '../../Utils/useFetchAOS';
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 const KenshoDiversity = () => {
     useFetchAOS();
+    const history = useHistory();
+    const nextDei = () => {
+        history.push("/dei")
+    }
     return (
         <div className='KenshoDiversity'>
             <div className='KenshoDiversity-body maxWidth1400px'>
@@ -15,7 +20,7 @@ const KenshoDiversity = () => {
                         <p data-aos="fade-up">Kenshins are open-minded and intellectual, and invite the diverse perspectives of our team’s global background. Our culture empowers every employee to bring their full, authentic selves to work and values every Kenshin’s unique perspective and experiences are valued. We know that building a diverse team of people with different backgrounds and experience spurs innovation and helps us make better decisions and build better products.</p>
                         <p data-aos="fade-up">Kensho continues to recognize, promote and add to our diverse talent in a number of ways. We value diversity at the senior engineering and management levels and celebrate our people across all organizational levels. Kenshins participate in industry events such as Grace Hopper, support other programs that highlight the development of diverse talent in tech, and are committed to attracting candidates from many backgrounds.</p>
                         <div className='KenshoDiversity-body_item_btn'>
-                            <button data-aos="fade-up">Learn More</button>
+                            <button data-aos="fade-up" onClick={() => nextDei()}>Learn More</button>
                         </div>
                     </div>
                 </div>

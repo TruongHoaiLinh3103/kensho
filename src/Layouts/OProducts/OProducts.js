@@ -13,6 +13,9 @@ const OProducts = () => {
     const nextFreeTrial = () => {
         history.push("/freetrial");
     }
+    const nextPage = (page) => {
+        history.push(page);
+    }
     useEffect(() => {
         AOS.init({
             duration: 1500,
@@ -42,7 +45,7 @@ const OProducts = () => {
                                 </ul>
                                 <div className='OProducts-body_data_item_btn'>
                                     <button onClick={() => nextFreeTrial()} data-aos='fade-up'>Free Trial</button>
-                                    <button data-aos='fade-up'>Learn more</button>
+                                    <button data-aos='fade-up' onClick={() => nextPage(item.page)}>Learn more</button>
                                 </div>
                             </div>
                         )

@@ -1,0 +1,23 @@
+.Entities{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Entities p{
+    font-family: proxima-nova;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    width: 80%;
+}
+.Entities h3{
+    color: #004d61;
+    font-family: proxima-nova;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 73px;
+    text-align: center;
+    margin: 30px 0px;
+}

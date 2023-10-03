@@ -1,0 +1,87 @@
+.Seeforyou{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fafafa;
+    height: 1300px;
+}
+.Seeforyou-body h3{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0px 0px 50px;
+    text-transform: uppercase;
+}
+.Seeforyou-body_box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Seeforyou-body_box h4{
+    font-family: proxima-nova;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 55px;
+    padding: 30px;
+}
+.Seeforyou-body_box p{
+    font-family: proxima-nova;
+    font-size: 32px;
+    line-height: 42px;
+    padding: 30px;
+}
+.Seeforyou-body_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+}
+.Seeforyou-body_item{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Seeforyou-body_item video{
+    width: 100%;
+}
+.Seeforyou-body_container .Seeforyou-body_item p{
+    font-family: proxima-nova;
+    font-size: 24px;
+    line-height: 30px;
+}
+.Seeforyou-body_item ul{
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.Seeforyou-body_item ul li{
+    list-style: circle;
+    display: list-item;
+    font-family: proxima-nova;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0px 0px 24px 4px;
+    text-align: left;
+}
+.Seeforyou-body_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Seeforyou-body_btn button{
+    background-color: var(--my-color);
+    color: white;
+    border: 1px solid white;
+    padding: 20px 100px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.Seeforyou-body_btn button:hover{
+    background-color: white;
+    color: var(--my-color);
+    border: 1px solid var(--my-color);
+    transition: all linear .4s;
+}

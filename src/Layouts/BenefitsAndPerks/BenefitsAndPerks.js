@@ -2,8 +2,13 @@ import React from 'react';
 import "../../Style/benefitsandperks.css";
 import { BENEFITSANDPERKS } from "../../Story/BENEFITSANDPERKS";
 import useFetchAOS from '../../Utils/useFetchAOS';
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 const BenefitsAndPerks = () => {
     useFetchAOS();
+    const history = useHistory();
+    const nextBenefits = () => {
+        history.push("/benefits")
+    }
     return (
         <div className='BenefitsAndPerks'>
             <div className='BenefitsAndPerks-body maxWidth1400px'>
@@ -20,7 +25,7 @@ const BenefitsAndPerks = () => {
                     })}
                 </div>
                 <div className='BenefitsAndPerks-body-btn'>
-                    <button data-aos="fade-up">See more on our Benefits page</button>
+                    <button data-aos="fade-up" onClick={() => nextBenefits()}>See more on our Benefits page</button>
                 </div>
             </div>
         </div>

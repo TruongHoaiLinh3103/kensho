@@ -1,7 +1,17 @@
 .AboutSolutions{
-    height: 900px;
+    height: 800px;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+.AboutSolutions-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+    overflow: hidden;
+}
+.AboutSolutions-item:nth-child(2){
+    padding: 0px;
 }
 .AboutSolutions-item h3{
     font-family: proxima-nova;
@@ -11,4 +21,57 @@
     line-height: 27px;
     margin: 0px 0px 90px;
     text-transform: uppercase;
+}
+.AboutSolutions-item h2{
+    font-family: proxima-nova;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 0px 0px 45px;
+}
+.AboutSolutions-item p{
+    font-family: proxima-nova;
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: 20px;
+}
+.AboutSolutions-item ul{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.AboutSolutions-item ul li{
+    list-style: circle;
+    display: list-item;
+    font-family: proxima-nova;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0px 0px 20px 4px;
+    text-align: left;
+}
+.AboutSolutions-item button{
+    width: 200px;
+    padding: 10px 10px;
+    background-color: white;
+    color: var(--my-color);
+    border: 1px solid var(--my-color);
+    border-radius: 5px;
+    font-size: 18px;
+}
+.AboutSolutions-item button:hover{
+    background-color: var(--my-color);
+    color: white;
+    transition: all linear .3s;
+}
+.AboutSolutions-item:nth-child(1){
+    z-index: 1;
+}
+.AboutSolutions-item video{
+    width: 800px;
+    height: 100%;
+    margin-left: -50px;
+}
+.AboutSolutions-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

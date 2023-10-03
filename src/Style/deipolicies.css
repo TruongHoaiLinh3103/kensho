@@ -1,0 +1,50 @@
+.DeiPolicies{
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DeiPolicies-body h3{
+    color: black;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 50px 0px 90px;
+    text-transform: uppercase;
+}
+.DeiPolicies-body p{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 24px;
+    line-height: 30px;
+}
+.DeiPolicies-body_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.DeiPolicies-body_box
+.DeiPolicies-body_item{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px
+}
+.DeiPolicies-body_item img{
+    width: 100px;
+    height: 100px;
+}
+.DeiPolicies-body_item h5{
+    color: #0b008f;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 30px 0px 0px;
+    text-align: center;
+    width: 170px;
+}

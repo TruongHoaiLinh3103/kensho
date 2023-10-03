@@ -1,7 +1,6 @@
 import React from 'react';
 import "../../Style/solutiondata.css";
 import { SOLUTIONDATA } from "../../Story/SOLUTIONDATA";
-import { NavLink } from "react-router-dom";
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 import useFetchAOS from '../../Utils/useFetchAOS';
 const Slutiondata = () => {
@@ -9,6 +8,12 @@ const Slutiondata = () => {
     const history = useHistory();
     const nextFreeTrial = () => {
         history.push('/freetrial')
+    }
+    const nextPage = (page) => {
+        history.push(page);
+    }
+    const nextContact = () => {
+        history.push("/contactus")
     }
     return (
         <div className='Slutiondata'>
@@ -24,7 +29,7 @@ const Slutiondata = () => {
                                         <h3>{item.h3}</h3>
                                         <p><b>{item.pOne}</b></p>
                                     </div>
-                                    <NavLink to='*'>Learn More</NavLink>
+                                    <button onClick={() => nextPage(item.page)}>Learn More</button>
                                 </div>
                                 <div className='Slutiondata-body_data_item_colum' data-aos="fade-right">
                                     <p>{item.pTwo}</p>
@@ -48,10 +53,10 @@ const Slutiondata = () => {
                                 </div>
                                 <div className='Slutiondata-body_data_item_colum' data-aos="fade-left">
                                     <div style={{display: "flex", flexDirection: "column"}}>
-                                        <h4>Discover more</h4>
-                                        <NavLink to='*'>{item.atwo}</NavLink>
-                                        <NavLink to='*'>{item.athree}</NavLink>
-                                        <NavLink to='*'>{item.afour}</NavLink>
+                                        <h4 className='discover-more'>Discover more</h4>
+                                        <button className='btn_a'>{item.atwo}</button>
+                                        <button className='btn_a' onClick={() => nextContact()}>{item.athree}</button>
+                                        <button className='btn_a'>{item.afour}</button>
                                     </div>
                                     <div className='Slutiondata-body_data_item_colum-btn'>
                                         <button onClick={() => nextFreeTrial()}>Free Trial</button>

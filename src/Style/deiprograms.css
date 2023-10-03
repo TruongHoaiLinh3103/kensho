@@ -1,0 +1,47 @@
+.DeiPrograms-body h3{
+    color: black;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 50px 0px 90px;
+    text-transform: uppercase;
+}
+.DeiPrograms-body_p{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 24px;
+    line-height: 30px;
+}
+.DeiPrograms-body_box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+}
+.DeiPrograms-body_item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.DeiPrograms-body_item img{
+    width: 100px;
+    height: 100px;
+}
+.DeiPrograms-body_item h4{
+    color: #0b008f;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 30px 0px 0px;
+    text-align: center;
+}
+.DeiPrograms-body_item p{
+    width: 80%;
+    font-family: proxima-nova;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 18px 0px;
+    text-align: left;
+}

@@ -10,9 +10,9 @@ export const SOLUTIONDATA = [
         lithree: "99+% accuracy in 6 hours with professional review.",
         lifour: "Read about Scribe in our blog post,",
         aone: "Speech Recognition for Finance",
-        atwo: "Developer Docs",
         athree: "Contact Scribe",
-        link: "https://blog.kensho.com/speech-recognition-for-finance-86983b2b97bd"
+        link: "https://blog.kensho.com/speech-recognition-for-finance-86983b2b97bd",
+        page: "/scribe"
     },
     {
         id: 2,
@@ -23,8 +23,8 @@ export const SOLUTIONDATA = [
         lione: "Develop custom concept models without machine learning expertise.",
         litwo: "See where specific concepts occur in text.",
         lithree: "Reveal insights, enrich your data structure, and connect disparate content",
-        atwo: "Developer Docs",
         athree: "Contact Classify",
+        page: "/classify"
     },
     {
         id: 3,
@@ -37,9 +37,9 @@ export const SOLUTIONDATA = [
         lithree: "Flatten and standardize information in tables.",
         lifour: "Read about Extract in our blog post,",
         aone: "Kensho Extract and the Value of Document Segmentation",
-        atwo: "Developer Docs",
         athree: "Contact Extract",
-        link: "https://blog.kensho.com/kensho-extract-and-the-value-of-document-segmentation-c23f33f7a9c2"
+        link: "https://blog.kensho.com/kensho-extract-and-the-value-of-document-segmentation-c23f33f7a9c2",
+        page: "/extract"
     },
     {
         id: 4,
@@ -53,10 +53,10 @@ export const SOLUTIONDATA = [
         lifour: "Read about NERD in our blog post,",
         lifive: "Improve search results, content recommendations and document routing.",
         aone: " Unlocking the Potential of Unstructured Data.",
-        atwo: "Developer Docs",
         athree: "Contact NERD",
         afour: "Watch Demo",
-        link: "https://blog.kensho.com/kensho-nerd-unlocking-the-potential-of-unstructured-data-f75e69efcb1e"
+        link: "https://blog.kensho.com/kensho-nerd-unlocking-the-potential-of-unstructured-data-f75e69efcb1e",
+        page: "/nerd"
     }
 
 ]
