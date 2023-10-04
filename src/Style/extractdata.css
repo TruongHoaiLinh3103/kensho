@@ -1,0 +1,43 @@
+.ExtractData-body_box h2{
+    font-family: proxima-nova;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 50px 0px 60px;
+    text-align: center;
+}
+.ExtractData-body_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ExtractData-body_item{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.ExtractData-body_item img{
+    width: 150px;
+    height: 150px;
+}
+.ExtractData-body_item h4{
+    align-items: center;
+    color: #0b008f;
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    justify-content: center;;
+    line-height: 30px;
+    margin: 30px 0px 0px;
+    text-align: center;
+}
+.ExtractData-body_item p{
+    font-family: proxima-nova;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
