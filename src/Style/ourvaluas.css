@@ -6,10 +6,16 @@
 }
 .OurWork{
     height: 500px;
+}
+.OurWork, .Cases{
     background-color: var(--my-color);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.Cases {
+    height: 1400px;
 }
 .OurValuas-body h3{
     color: #444444;
@@ -130,10 +136,11 @@
     font-size: 18px;
     color: white;
     border-radius: 5px;
-
+    cursor: pointer;
 }
 .OurWork-body_box_item button:hover{
-    background-color: white;
-    border: 1px solid var(--my-color);
+    border: black 1px solid;
     color: black;
+    transition: all ease-in-out .3s;
+    background-color: rgb(189, 213, 224);
 }

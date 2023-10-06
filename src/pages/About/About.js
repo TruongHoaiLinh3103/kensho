@@ -7,6 +7,7 @@ import OurValuas from '../../Layouts/OurValuas/OurValuas';
 import LeardershipTeam from '../../Layouts/LeardershipTeam/LeardershipTeam';
 import Diversity from '../../Layouts/Diversity/Diversity';
 import KenshoAL from '../../Layouts/KenshoAL/KenshoAL';
+
 const About = () => {
     return (
         <div>
