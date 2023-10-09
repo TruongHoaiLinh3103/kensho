@@ -1,0 +1,62 @@
+.AboutScribe{
+    background-color: #fafafa;
+}
+.AboutScribe-body h3{
+    color: black;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 0px 0px 90px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.AboutScribe-body_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.AboutScribe-body_box h2{
+    font-family: proxima-nova;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 0px 0px 60px;
+    text-align: center;
+    width: 70%;
+}
+.AboutScribe-body_box h4{
+    font-family: proxima-nova;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0px 0px 24px;
+    width: 70%;
+}
+.AboutScribe-body_box p{
+    width: 70%;
+    color: #000000;
+    font-family: proxima-nova;
+    font-size: 18px;
+    line-height: 35px;
+    margin: 0px 0px 20px;
+}
+.AboutScribe-body_span{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.AboutScribe-body_span img{
+    width: 200px;
+    height: 150px;
+}
+.AboutScribe-body_span p{
+    color: #0066ff;
+    font-family: proxima-nova;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 25px;
+}

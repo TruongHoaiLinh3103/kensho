@@ -1,5 +1,5 @@
 .LeardershipTeam{
-    height: 1100px;
+    padding: 50px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,4 +65,26 @@
     line-height: 30px;
     text-align: left;
     margin-left: 15px;
+}
+@media only screen and (max-width:  89.9375em){
+    
+}
+@media only screen and (min-width: 78.9376em) and (max-width: 89.9374em){
+    .LeardershipTeam-body h3{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    .LeardershipTeam-body_box{
+        grid-template-columns: 100%;
+        row-gap: 5%;
+    }
+    .LeardershipTeam-body h3{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width : 46.1875em){
+    .LeardershipTeam-body h3{
+        margin-left: 20px;
+    }
 }

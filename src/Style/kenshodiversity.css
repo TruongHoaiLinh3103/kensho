@@ -1,5 +1,5 @@
 .KenshoDiversity{
-    height: 700px;
+    padding: 50px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,4 +54,21 @@
 .KenshoDiversity-body_item_btn button:hover{
     background-color: var(--my-color);
     color: white;
+}
+@media only screen and (max-width:  89.9375em){
+    
+}
+@media only screen and (max-width: 89.9374em){
+    .KenshoDiversity-body{
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    .KenshoDiversity-body_container{
+        grid-template-columns: 100%;
+        row-gap: 5%;
+    }
+}
+@media only screen and (max-width : 46.1875em){
+    
 }

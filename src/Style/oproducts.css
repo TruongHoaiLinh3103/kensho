@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     background-color: #fafafa;
-    height: 1100px;
+    padding-bottom: 50px;
 }
 .OProducts-body h3{
     color: #444444;
@@ -12,7 +12,7 @@
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 27px;
-    margin: 0px 0px 50px;
+    margin: 50px 0px 50px;
     text-transform: uppercase;
 }
 .OProducts-body_p{
@@ -39,7 +39,7 @@
 }
 .OProducts-body_data_item{
     width: 400px;
-    height: 650px;
+    height: 700px;
     background-color: white;
     border: 1px solid rgb(218, 218, 218);
     margin: 20px;
@@ -52,6 +52,7 @@
     font-weight: 700;
     line-height: 22px;
     margin: 0px 0px 30px;
+    padding: 20px;
 }
 .OProducts-body_data_item h3{
     font-family: proxima-nova;
@@ -104,4 +105,32 @@
 }
 .OProducts-body_data_item_btn button:nth-child(2):hover{
     border-bottom: 1px solid var(--my-color);
+}
+@media only screen and (max-width:  89.9375em){
+    .OProducts-body{
+        padding: 0px 20px;
+    }
+    
+}
+@media only screen and (min-width: 78.9376em) and (max-width: 89.9374em){
+
+}
+@media only screen and (min-width: 46.1876em) and (max-width: 78.9375em){
+
+}
+@media only screen and (max-width : 46.1875em){
+    .OProducts-body_p{
+        grid-template-columns: 100%;
+    }
+    .OProducts-body_p p{
+        margin-top: 20px;
+    }
+    .OProducts-body_data_item{
+        height: 850px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }

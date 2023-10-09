@@ -21,7 +21,7 @@
     grid-template-columns: 50% 50%;
 }
 .FreeTrialapp-body_item{
-
+    margin: 20px;
 }
 .FreeTrialapp-body_item img{
     width: 200px;
@@ -52,9 +52,6 @@
     font-family: proxima-nova;
     line-height: 18.4px;
     margin: 10px 0px 0px;
-}
-.FreeTrialapp-body_item-input{
-
 }
 .FreeTrialapp-body_item-input p{
     color: #ffffff;
@@ -95,4 +92,19 @@
     font-size: 12px;
     font-weight: 700;
     line-height: 13.8px;
+}
+@media only screen and (max-width:  89.9375em){
+    
+}
+@media only screen and (min-width: 78.9376em) and (max-width: 89.9374em){
+    
+}
+@media only screen and (min-width: 46.1876em) and (max-width: 78.9375em){
+    
+}
+@media only screen and (max-width : 46.1875em){
+    .FreeTrialapp-body{
+        grid-template-columns: 100%;
+        row-gap: 10%;
+    }
 }

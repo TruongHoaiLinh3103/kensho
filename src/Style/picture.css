@@ -1,6 +1,7 @@
 .Picture{
     height: auto;
     width: 100%;
+    padding: 50px 0px;
 }
 .Picture-body{
     display: flex;

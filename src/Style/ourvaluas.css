@@ -1,11 +1,11 @@
 .OurValuas{
-    height: 1450px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .OurWork{
-    height: 500px;
+    margin-bottom: 50px;
 }
 .OurWork, .Cases{
     background-color: var(--my-color);
@@ -15,7 +15,7 @@
     flex-direction: column;
 }
 .Cases {
-    height: 1400px;
+    margin-bottom: 50px;
 }
 .OurValuas-body h3{
     color: #444444;
@@ -24,13 +24,15 @@
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 27px;
-    margin: 0px 0px 90px;
+    margin: 50px 0px 90px;
     text-transform: uppercase;
 }
 .OurValuas-body_box{
     display: grid;
     grid-template-columns: 45% 45%;
-    gap: 10%;
+}
+.OurValuas-body_box_item{
+    padding: 20px;
 }
 .OurValuas-body_box_item h2{
     color: #ffffff;
@@ -143,4 +145,30 @@
     color: black;
     transition: all ease-in-out .3s;
     background-color: rgb(189, 213, 224);
+}
+@media only screen and (max-width:  89.9375em){
+    
+}
+@media only screen and (max-width: 89.9374em){
+    .OurValuas-body h3{
+        padding-left: 20px;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    .OurValuas-body_box{
+        grid-template-columns: 100%;
+        gap: -5%;
+    }
+    .OurValuas-body h3{
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width : 46.1875em){
+    .OurValuas-body h3{
+        padding: 0px 20px;
+    }
+    .OurValuas-body_container h2{
+        text-align: center;
+    }
 }

@@ -3,14 +3,13 @@
     grid-template-columns: 50% 50%;
 }
 .Aboutus_item, .Aboutus_video{
-    height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .Aboutus_item{
     background-color: #00728f;
-    padding: 0px 30px;
+    padding: 50px 30px;
     flex-direction: column;
 }
 .Aboutus_item h3{
@@ -87,4 +86,18 @@
 .Aboutus_video video{
     width: 1500px;
     object-fit: contain;
+}
+@media only screen and (max-width:  89.9375em){
+    
+}
+@media only screen and (min-width: 78.9376em) and (max-width: 89.9374em){
+
+}
+@media only screen and (min-width: 46.1876em) and (max-width: 78.9375em){
+
+}
+@media only screen and (max-width : 46.1875em){
+    .Aboutus{
+        grid-template-columns: 100%;
+    }
 }

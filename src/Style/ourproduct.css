@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 450px;
+    padding: 70px 0px;
 }
 .OurProduct-body h3{
     font-family: proxima-nova;
@@ -29,4 +29,28 @@
     font-size: 32px;
     line-height: 42px;
     font-weight: normal;
+}
+@media only screen and (max-width:  89.9375em){
+    .OurProduct-body{
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 78.9376em) and (max-width: 89.9374em){
+    .OurProduct-body{
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 46.1876em) and (max-width: 78.9375em){
+    .OurProduct-body{
+        padding: 20px;
+    }
+}
+@media only screen and (max-width : 46.1875em){
+    .OurProduct-body_box{
+        grid-template-columns: 100%;
+        row-gap: 10%;
+    }
+    .OurProduct-body{
+        padding: 20px;
+    }
 }

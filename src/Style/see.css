@@ -1,0 +1,88 @@
+.See{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.See-body h3{
+    color: #444444;
+    font-family: proxima-nova;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 40px 0px 50px;
+    text-transform: uppercase;
+}
+.See-body_pra{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.See-body_pra h2{
+    font-family: proxima-nova;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    width: 90%;
+}
+.See-body_pra p{
+    font-family: proxima-nova;
+    font-size: 32px;
+    line-height: 42px;
+    width: 90%;
+}
+.See-body_box{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 50px;
+}
+.See-body_navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+}
+.See-body_navbar button{
+    width: 80%;
+    margin: 20px;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: all ease-in-out .3s;
+    text-align: left;
+    user-select: none;
+}
+.See-body_navbar button:hover{
+    background-color: rgb(192, 251, 249);
+    border-radius: 10px;
+}
+.See-body_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.See-body_item_detail{
+    margin: 40px;
+}
+.detail-item{
+    margin-bottom: 50px;
+}
+.detail-item h4{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0px 0px 20px 0px;
+    user-select: none;
+}
+.detail-item p{
+    font-family: proxima-nova;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: left;
+    user-select: none;
+}

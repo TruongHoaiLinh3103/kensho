@@ -1,5 +1,5 @@
 .Emloy{
-    height: 1100px;
+    padding: 50px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,4 +107,30 @@
     margin-left: 10px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+@media only screen and (max-width: 89.9374em){
+    .Emloy-body h3{
+        padding-left: 20px;
+    }
+    .Emloy-body_box_item_profile_title_detail{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    .Emloy-body_box_item_profile_title_detail{
+        text-align: center;
+    }
+}
+@media only screen and (max-width : 46.1875em){
+    .Emloy-body_box{
+        height: 1200px;
+    }
+    .Emloy-body_box_item_profile_title{
+        flex-direction: column;
+        
+    }
+    .Emloy-body_box_item_profile_title_detail{
+        justify-content: center;
+        text-align: center;
+    }
 }

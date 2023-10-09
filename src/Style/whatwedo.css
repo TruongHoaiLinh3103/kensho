@@ -1,5 +1,5 @@
 .WhatWeDo{
-    height: 900px;
+    padding: 50px 0px;
 }
 .WhatWeDo-body{
     height: 100%;
@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 20px;
 }
 .WhatWeDo-body_item_prf h3{
     color: #444444;
@@ -61,4 +62,18 @@
 .WhatWeDo-body_item img{
     width: 500px;
     height: 500px;
+}
+@media only screen and (max-width:  89.9375em){
+    
+}
+@media only screen and (min-width: 78.9376em) and (max-width: 89.9374em){
+    
+}
+@media only screen and (max-width: 78.9375em){
+    .WhatWeDo-body{
+        grid-template-columns: 100%;
+    }
+}
+@media only screen and (max-width : 46.1875em){
+    
 }

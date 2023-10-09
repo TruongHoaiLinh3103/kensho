@@ -1,5 +1,5 @@
 .Culture{
-    height: 800px;
+    padding: 50px 0px;
     display: flex;
     align-items: center;
     background-color: #fafafa;
@@ -25,7 +25,7 @@
     justify-content: center;
 }
 .Culture-body_box_item{
-    width: 30%;
+    width: 415px;
     height: 250px;
     text-align: center;
     display: flex;
@@ -61,4 +61,18 @@
     margin: 0px;
     text-align: center;
     font-weight: 500;
+}
+@media only screen and (max-width:  89.9375em){
+    
+}
+@media only screen and (max-width: 89.9374em){
+    .Culture-body{
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    
+}
+@media only screen and (max-width : 46.1875em){
+    
 }

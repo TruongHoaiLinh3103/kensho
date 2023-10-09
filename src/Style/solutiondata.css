@@ -28,7 +28,6 @@
     margin-bottom: 50px;
     background-color: white;
     border: 1px solid #c3c3c3;
-    height: 500px;
 }
 .Slutiondata-body_data_item_colum{
     padding: 50px;
@@ -111,4 +110,18 @@
 }
 .Slutiondata-body_data_item_colum-btn button:hover{
     filter: grayscale(50%);
+}
+@media only screen and (max-width:  89.9375em){
+    
+}
+@media only screen and (min-width: 78.9376em) and (max-width: 89.9374em){
+
+}
+@media only screen and (max-width: 78.9375em){
+    .Slutiondata-body_data_item{
+        grid-template-columns: 100%;
+    }
+}
+@media only screen and (max-width : 46.1875em){
+    
 }

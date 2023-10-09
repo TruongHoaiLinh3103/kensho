@@ -1,5 +1,5 @@
 .BenefitsAndPerks{
-    height: 600px;
+    padding: 50px 0px;
     display: flex;
     align-items: center;
     justify-items: center;
@@ -18,12 +18,14 @@
     text-transform: uppercase;
 }
 .BenefitsAndPerks-body_box{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    column-gap: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .BenefitsAndPerks-body_box_item{
+    width: 300px;
     text-align: center;
+    margin: 20px;
 }
 .BenefitsAndPerks-body_box_item img{
     width: 100px;
@@ -60,4 +62,15 @@
 .BenefitsAndPerks-body-btn button:hover{
     background-color: var(--my-color);
     color: white;
+}
+@media only screen and (max-width: 89.9374em){
+    .BenefitsAndPerks-body{
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    
+}
+@media only screen and (max-width : 46.1875em){
+    
 }

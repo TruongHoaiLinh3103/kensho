@@ -1,13 +1,12 @@
 .Boxhearder{
     width:  100%;
-    height: 700px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 200px 0px;
 }
 .Boxhearder_home{
-    height: 1000px;
     flex-direction: column;
 }
 .Boxhearder img{
@@ -45,4 +44,15 @@
     padding: 0px;
     margin-top: 50px;
     user-select: none;
+}
+@media only screen and (min-width: 78.9376em) and (max-width: 89.9374em){
+
+}
+@media only screen and (min-width: 46.1876em) and (max-width: 78.9375em){
+
+}
+@media only screen and (max-width : 46.1875em){
+    .Boxhearder h1{
+        text-align: left;
+    }
 }

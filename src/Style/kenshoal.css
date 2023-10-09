@@ -1,5 +1,5 @@
 .KenshoAL{
-    height: 1200px;
+    padding: 50px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,4 +91,18 @@
 .teamImpact_detail_btn button:hover{
     background-color: var(--my-color);
     color: white;
+}
+@media only screen and (max-width:  89.9375em){
+    
+}
+@media only screen and (max-width: 89.9374em){
+    .KenshoAL-body_teamImpact, .KenshoAL-body_box p{
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    
+}
+@media only screen and (max-width : 46.1875em){
+    
 }

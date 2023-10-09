@@ -9,7 +9,7 @@
     justify-content: center;
 }
 .WhoWeAre-body_item{
-    padding-left: 30px;
+    padding: 0px 20px;
 }
 .WhoWeAre-body_item h3{
     color:#ffffff;
@@ -18,7 +18,7 @@
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 27px;
-    margin: 0px 0px 90px;
+    margin: 50px 0px 90px;
     text-transform: uppercase;
 }
 .WhoWeAre-body_item h2{
@@ -46,4 +46,19 @@
 .WhoWeAre-body img{
     object-fit: cover;
     height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width:  89.9375em){
+    
+}
+@media only screen and (min-width: 78.9376em) and (max-width: 89.9374em){
+    
+}
+@media only screen and (max-width: 78.9375em){
+    .WhoWeAre{
+        grid-template-columns: 100%;
+    }
+}
+@media only screen and (max-width : 46.1875em){
+    
 }
