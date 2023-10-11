@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     background-color: #fafafa;
-    height: 1300px;
+    padding: 50px 0px;
 }
 .Seeforyou-body h3{
     color: #444444;
@@ -84,4 +84,19 @@
     color: var(--my-color);
     border: 1px solid var(--my-color);
     transition: all linear .4s;
+}
+@media only screen and (max-width: 89.9374em){
+    .Seeforyou-body{
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    .Seeforyou-body_container{
+        grid-template-columns: 100%;
+    }
+}
+@media only screen and (max-width : 46.1875em){
+    .Seeforyou-body_box{
+        grid-template-columns: 100%;
+    }
 }

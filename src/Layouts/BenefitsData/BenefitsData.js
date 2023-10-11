@@ -1,13 +1,15 @@
 import React from 'react';
 import "../../Style/benefitsdata.css";
 import { BENEFITSDATA } from '../../Story/BENEFITSDATA';
+import useFetchAOS from '../../Utils/useFetchAOS';
 const BenefitsData = () => {
+    useFetchAOS();
     return (
         <div className='BenefitsData'>
             <div className='BenefitsData-box maxWidth1200px'>
                 {BENEFITSDATA.map((item) => {
                     return(
-                        <div className='BenefitsData_item' key={item.id}>
+                        <div className='BenefitsData_item' key={item.id} data-aos="fade-up">
                             <img src={item.img} alt=''/>
                             <h3>{item.title}</h3>
                             <div className='BenefitsData_item-detail'>

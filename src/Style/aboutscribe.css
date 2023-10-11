@@ -1,5 +1,6 @@
 .AboutScribe{
     background-color: #fafafa;
+    padding: 50px 0px;
 }
 .AboutScribe-body h3{
     color: black;
@@ -10,7 +11,6 @@
     line-height: 27px;
     margin: 0px 0px 90px;
     text-transform: uppercase;
-    padding-top: 50px;
 }
 .AboutScribe-body_box{
     display: flex;
@@ -25,7 +25,7 @@
     line-height: 55px;
     margin: 0px 0px 60px;
     text-align: center;
-    width: 70%;
+    width: 90%;
 }
 .AboutScribe-body_box h4{
     font-family: proxima-nova;
@@ -33,7 +33,7 @@
     font-weight: 700;
     line-height: 30px;
     margin: 0px 0px 24px;
-    width: 70%;
+    width: 90%;
 }
 .AboutScribe-body_box p{
     width: 70%;
@@ -59,4 +59,17 @@
     font-weight: 700;
     line-height: 30px;
     margin-left: 25px;
+}
+@media only screen and (max-width: 89.9374em){
+    .AboutScribe-body h3{
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    
+}
+@media only screen and (max-width : 46.1875em){
+    .AboutScribe-body_span img{
+        display: none;
+    }
 }

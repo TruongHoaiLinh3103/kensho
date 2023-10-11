@@ -140,6 +140,7 @@
     justify-content: center;
     line-height: 24px;
     padding: 9px 20px;
+    text-align: center;
 }
 .navbar-logAndContact{
     width: 50%;

@@ -2,18 +2,21 @@ import React from 'react';
 import "../../Style/entities.css";
 import useFetchEnti from '../../Utils/useFetchEnti';
 import { useState } from 'react';
+import useFetchAOS from '../../Utils/useFetchAOS';
 const Entities = () => {
+    useFetchAOS();
     const {number , hundredthousand, hundred} = useFetchEnti();
     const [play, setPlay] = useState(false);
     const playVideo = () =>{
         setPlay(!play)
     }
+    
     return (
         <div className='Entities maxWidth1400px'>
-            <p>No other solution offers NERD’s combination of accuracy, general breadth and business and financial depth. See for yourself!</p>
-            <h3>{number},{hundredthousand},{hundred}</h3>
-            <p><b>…entities recogizable by NERD!</b></p>
-            <div className='Entities-video'>
+            <p data-aos="fade-up">No other solution offers NERD’s combination of accuracy, general breadth and business and financial depth. See for yourself!</p>
+            <h3 data-aos="fade-up">{number},{hundredthousand},{hundred}</h3>
+            <p data-aos="fade-up"><b>…entities recogizable by NERD!</b></p>
+            <div className='Entities-video' data-aos="fade-up">
                 <div className='Entities-video_overview' style={{
                     display: play === true ? "none" : "flex"
                 }}>

@@ -17,7 +17,7 @@
     object-fit: cover;
 }
 .Boxhearder h1{
-    width: 90%;
+    width: 100%;
     color: #ffffff;
     font-family: proxima-nova;
     font-size: 120px;
@@ -49,10 +49,14 @@
 
 }
 @media only screen and (min-width: 46.1876em) and (max-width: 78.9375em){
-
+    .Boxhearder h1{
+        text-align: center;
+        font-size: 80px;
+    }
 }
 @media only screen and (max-width : 46.1875em){
     .Boxhearder h1{
-        text-align: left;
+        text-align: center;
+        font-size: 30px;
     }
 }

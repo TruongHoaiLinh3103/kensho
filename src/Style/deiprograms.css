@@ -45,3 +45,16 @@
     margin: 18px 0px;
     text-align: left;
 }
+@media only screen and (max-width: 89.9374em){
+    .DeiPrograms-body{
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    .DeiPrograms-body_box{
+        grid-template-columns: 100%;
+    }
+}
+@media only screen and (max-width : 46.1875em){
+    
+}

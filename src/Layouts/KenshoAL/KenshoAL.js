@@ -46,7 +46,7 @@ const KenshoAL = () => {
                     </div>
                 </Route>
                 <Route path="/impact">
-                    <div className='KenshoAL' style={{height: "400px"}}>
+                    <div className='KenshoAL'>
                         <div className='maxWidth1400px KenshoAL-body'>
                             <div className='KenshoAL-body_teamImpact'>
                                 <h3 data-aos="fade-up">HOW TO GET INVOLVED?</h3>

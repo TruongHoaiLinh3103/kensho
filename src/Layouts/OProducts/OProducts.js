@@ -35,14 +35,16 @@ const OProducts = () => {
                         return(
                             item.id <= 3 &&
                             <div className='OProducts-body_data_item' data-aos='fade-up' key={item.id}>
-                                <h5>{item.title}</h5>
-                                <h3>{item.h3}</h3>
-                                <p>{item.pTwo}</p>
-                                <ul>
-                                    <li><p>{item.lione}</p></li>
-                                    <li><p>{item.litwo}</p></li>
-                                    <li><p>{item.lithree}</p></li>
-                                </ul>
+                                <div style={{height: "80%"}}>
+                                    <h5>{item.title}</h5>
+                                    <h3>{item.h3}</h3>
+                                    <p>{item.pTwo}</p>
+                                    <ul>
+                                        <li><p>{item.lione}</p></li>
+                                        <li><p>{item.litwo}</p></li>
+                                        <li><p>{item.lithree}</p></li>
+                                    </ul>
+                                </div>
                                 <div className='OProducts-body_data_item_btn'>
                                     <button onClick={() => nextFreeTrial()} data-aos='fade-up'>Free Trial</button>
                                     <button data-aos='fade-up' onClick={() => nextPage(item.page)}>Learn more</button>

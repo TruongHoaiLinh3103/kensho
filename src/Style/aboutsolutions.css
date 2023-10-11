@@ -1,13 +1,16 @@
 .AboutSolutions{
-    height: 800px;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+.AboutSolutions-flex{
+    display: flex;
+    flex-direction: row-reverse;
 }
 .AboutSolutions-item{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 30px;
+    padding: 50px 30px;
     overflow: hidden;
 }
 .AboutSolutions-item:nth-child(2){
@@ -74,4 +77,18 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+@media only screen and (max-width: 89.9374em){
+    
+}
+@media only screen and (max-width: 78.9375em){
+    .AboutSolutions{
+        grid-template-columns: 100%;
+    }
+    .AboutSolutions-flex{
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (max-width : 46.1875em){
+    
 }

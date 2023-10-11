@@ -11,10 +11,10 @@ const See = () => {
     return (
         <div className='See'>
             <div className='See-body maxWidth1400px'>
-                <h3>SEE FOR YOURSELF</h3>
+                <h3 data-aos="fade-up">SEE FOR YOURSELF</h3>
                 <div className='See-body_pra'>
-                    <h2>See the difference between NERD and the competition in the examples below.</h2>
-                    <p>While other solutions struggles with ambiguous names, abbreviations, nicknames and the like, NERD is able to disambiguate entities and connect them to S&P Capital IQ data.</p>
+                    <h2 data-aos="fade-right">See the difference between NERD and the competition in the examples below.</h2>
+                    <p data-aos="fade-left">While other solutions struggles with ambiguous names, abbreviations, nicknames and the like, NERD is able to disambiguate entities and connect them to S&P Capital IQ data.</p>
                 </div>
                 <div className='See-body_box maxWidth1200px'>
                     <div className='See-body_navbar'>

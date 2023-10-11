@@ -1,5 +1,5 @@
 .BoxheaderSolutons{
-    height: 700px;
+    height: 800px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -22,7 +22,8 @@
     flex-direction: column;
 }
 .BoxheaderSolutons-box img{
-    width: 500px;
+    width: 100%;
+    padding: 0px 20px;
 }
 .BoxheaderSolutons-box p{
     color: #ffffff;
@@ -32,6 +33,7 @@
     line-height: 42px;
     text-align: center;
     margin-top: 20px;
+    padding: 0px 20px;
 }
 .BoxheaderSolutons-box button{
     padding: 15px 30px;
@@ -49,4 +51,13 @@
     background-color: var(--my-color);
     border: 1px solid var(--my-color);
     transition: all .3s linear;
+}
+@media only screen and (max-width: 89.9374em){
+    
+}
+@media only screen and (max-width: 78.9375em){
+    
+}
+@media only screen and (max-width : 46.1875em){
+    
 }

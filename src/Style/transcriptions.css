@@ -1,5 +1,5 @@
 .Transcriptions{
-    height: 800px;
+    padding: 50px 0px;
     background-color: var(--my-color);
     display: flex;
     align-items: center;
@@ -11,6 +11,7 @@
     justify-content: center;
     flex-direction: column;
     width: 700px;
+    padding: 0px 20px;
 }
 .Transcriptions-body h3{
     color: #ffffff;
@@ -20,6 +21,7 @@
     line-height: 42px;
     margin: 0px 0px 20px;
     text-align: center;
+    padding: 0px 20px;
 }
 .Transcriptions-body p{
     color: #ffffff;

@@ -86,3 +86,19 @@
     text-align: left;
     user-select: none;
 }
+@media only screen and (max-width: 89.9374em){
+    .See-body{
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    .See-body_pra{
+        grid-template-columns: 100%;
+        gap: 30px;
+    }
+}
+@media only screen and (max-width : 46.1875em){
+    .See-body_box{
+        display: none;
+    }
+}

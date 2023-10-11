@@ -1,13 +1,15 @@
 import React from 'react';
 import "../../Style/transcriptions.css";
+import useFetchAOS from '../../Utils/useFetchAOS';
 const Transcriptions = () => {
+    useFetchAOS();
     return (
         <div className='Transcriptions'>
             <div className='Transcriptions-body'>
-                <h3>Transcriptions are only valuable when they’re right.</h3>
-                <p>That’s why we optimized our transcription technology to handle the complexities of messy, real-world audio for:</p>
+                <h3 data-aos="fade-up">Transcriptions are only valuable when they’re right.</h3>
+                <p data-aos="fade-up">That’s why we optimized our transcription technology to handle the complexities of messy, real-world audio for:</p>
                 <div className='Transcriptions-body_box'>
-                    <div className='Transcriptions-body_box_item'>
+                    <div className='Transcriptions-body_box_item' data-aos="fade-left">
                         <h4>NAMES & NUMBERS</h4>
                         <ul>
                             <li>Specific Numbers</li>
@@ -17,7 +19,7 @@ const Transcriptions = () => {
                             <li>Company Names</li>
                         </ul>
                     </div>
-                    <div className='Transcriptions-body_box_item'>
+                    <div className='Transcriptions-body_box_item' data-aos="fade-right">
                         <h4>SPECIFIC SPEECH</h4>
                         <ul>
                             <li>Heavily Accented Speech</li>

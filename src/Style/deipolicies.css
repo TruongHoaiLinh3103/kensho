@@ -48,3 +48,14 @@
     text-align: center;
     width: 170px;
 }
+@media only screen and (max-width: 89.9374em){
+    .DeiPolicies-body{
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    
+}
+@media only screen and (max-width : 46.1875em){
+    
+}

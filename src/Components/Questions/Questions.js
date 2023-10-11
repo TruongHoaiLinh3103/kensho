@@ -7,8 +7,10 @@ import {
     Route,
 } from "react-router-dom";
 import {QUESTIONS} from "../../Story/QUESTIONS";
+import useFetchAOS from '../../Utils/useFetchAOS';
 
 const Questions = () => {
+    useFetchAOS();
     const [hideone, setHideone] = useState(false);
     const [hidetwo, setHidetwo] = useState(false);
     const [hidethree, setHidethree] = useState(false);
@@ -49,7 +51,7 @@ const Questions = () => {
         <Router>
             <div className='Questions'>
                 <div className='Questions-body maxWidth1400px'>
-                    <h1>Frequently Asked Questions</h1>
+                    <h1 data-aos="fade-up">Frequently Asked Questions</h1>
                     <Switch>
                         <Route path="/extract">
                             <div className='Questions-body_box'>
@@ -58,25 +60,25 @@ const Questions = () => {
                                         item.id < 5 &&
                                         <div key={item.id}>
                                             {item.id === 1 &&
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePageone(item.detail)}>{item.title}</h4>
                                                 {hideone &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 2 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagetwo(item.detail)}>{item.title}</h4>
                                                 {hidetwo &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 3 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagethree(item.detail)}>{item.title}</h4>
                                                 {hidethree &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 4 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagefour(item.detail)}>{item.title}</h4>
                                                 {hidefour &&
                                                 <p>{item.detail}</p>}
@@ -93,55 +95,55 @@ const Questions = () => {
                                         item.id > 4 && item.id < 14 &&
                                         <div key={item.id}>
                                             {item.id === 5 &&
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePageone(item.detail)}>{item.title}</h4>
                                                 {hideone &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 6 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagetwo(item.detail)}>{item.title}</h4>
                                                 {hidetwo &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 7 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagethree(item.detail)}>{item.title}</h4>
                                                 {hidethree &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 8 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagefour(item.detail)}>{item.title}</h4>
                                                 {hidefour &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 9 &&
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagefive(item.detail)}>{item.title}</h4>
                                                 {hidefive &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 10 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagesix(item.detail)}>{item.title}</h4>
                                                 {hidesix &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 11 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePageseven(item.detail)}>{item.title}</h4>
                                                 {hideseven &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 12 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePageeght(item.detail)}>{item.title}</h4>
                                                 {hideeght &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 13 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagenive(item.detail)}>{item.title}</h4>
                                                 {hidenive &&
                                                 <p>{item.detail}</p>}
@@ -158,43 +160,43 @@ const Questions = () => {
                                         item.id > 13 &&
                                         <div key={item.id}>
                                             {item.id === 14 &&
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePageone(item.detail)}>{item.title}</h4>
                                                 {hideone &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 15 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagetwo(item.detail)}>{item.title}</h4>
                                                 {hidetwo &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 16 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagethree(item.detail)}>{item.title}</h4>
                                                 {hidethree &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 17 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagefour(item.detail)}>{item.title}</h4>
                                                 {hidefour &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 18 &&
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagefive(item.detail)}>{item.title}</h4>
                                                 {hidefive &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 19 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePagesix(item.detail)}>{item.title}</h4>
                                                 {hidesix &&
                                                 <p>{item.detail}</p>}
                                             </div>}
                                             {item.id === 20 && 
-                                            <div className='Questions-body_item' key={item.id}>
+                                            <div className='Questions-body_item' key={item.id} data-aos="fade-up">
                                                 <h4 onClick={() => hidePageseven(item.detail)}>{item.title}</h4>
                                                 {hideseven &&
                                                 <p>{item.detail}</p>}

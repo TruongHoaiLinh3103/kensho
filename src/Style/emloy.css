@@ -120,10 +120,13 @@
     .Emloy-body_box_item_profile_title_detail{
         text-align: center;
     }
+    .Emloy-body_box{
+        height: 1300px;
+    }
 }
 @media only screen and (max-width : 46.1875em){
     .Emloy-body_box{
-        height: 1200px;
+        height: 1800px;
     }
     .Emloy-body_box_item_profile_title{
         flex-direction: column;
