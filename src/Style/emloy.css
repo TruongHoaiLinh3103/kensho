@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     background-color: #fafafa;
+    height: auto;
 }
 .Emloy-body h3{
     color: #444444;
@@ -15,28 +16,51 @@
     margin: 0px 0px 50px;
     text-transform: uppercase;
 }
-.Emloy-body_box{
-    max-width: 100%;
-    height: 800px;
-    position: relative;
+.Emloy-container{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
 }
-.Emloy-body_box > .Emloy-body_box_item{
-    width: 100%;
-    height: 100%;
+.Emloy-container::-webkit-scrollbar{
+    display: none;
+}
+.Emloy-body_box{
     background-color: var(--my-color);
+    scroll-snap-align: start;
+    min-height: 470px;
+    min-width: 1000px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(20%);
+    transition: 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+.Emloy-body_box_item{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
 }
 .Emloy-body_box_item_img{
     width: 80%;
     margin-bottom: 30px;
     display: flex;
     justify-content: flex-start;
+    position: absolute;
+    top: 30px;
+    left: 30px;
 }
 .Emloy-body_box_item_img img{
     width: 100px;
@@ -45,6 +69,7 @@
 }
 .Emloy-body_box_item_profile{
     width: 80%;
+    padding: 50px 0px;
 }
 .Emloy-body_box_item_profile p{
     color: #ffffff;
@@ -55,11 +80,13 @@
 .Emloy-body_box_item_profile_title{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .Emloy-body_box_item_profile_title img{
     width: 150px;
     height: 150px;
     border-radius: 100vh;
+    z-index: 1;
 }
 .Emloy-body_box_item_profile_title_detail{
     margin-left: 20px;
@@ -80,33 +107,14 @@
     font-weight: 300;
 }
 .Emloy-body-btn{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px;
 }
-.Emloy-body-btn button{
-    background-color: white;
-    padding: 30px;
-    border: 1px solid var(--my-color);
-    cursor: pointer;
-    font-size: 18px;
+.Emloy-body-btn li{
+    font-size: 30px;
     color: var(--my-color);
-    transition: .3s all ease-in;
-}
-.Emloy-body-btn button:hover{
-    background-color: var(--my-color);
-    color: white;
-}
-.Emloy-body-btn button:nth-child(1){
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-.Emloy-body-btn button:nth-child(2){
-    margin-left: 10px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    cursor: pointer;
 }
 @media only screen and (max-width: 89.9374em){
     .Emloy-body h3{
@@ -120,14 +128,8 @@
     .Emloy-body_box_item_profile_title_detail{
         text-align: center;
     }
-    .Emloy-body_box{
-        height: 1300px;
-    }
 }
 @media only screen and (max-width : 46.1875em){
-    .Emloy-body_box{
-        height: 1800px;
-    }
     .Emloy-body_box_item_profile_title{
         flex-direction: column;
         

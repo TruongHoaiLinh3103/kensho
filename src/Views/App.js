@@ -21,6 +21,29 @@ import Impact from "../pages/Impact/Impact";
 import Dei from "../pages/Dei/Dei";
 import Benefits from "../pages/Benefits/Benefits";
 import Not404Page from "../pages/Not404Page/Not404Page";
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAymm-POnT0C0kbEfMT5GCiDwTwnHxUV5Y",
+  authDomain: "kensho-77268.firebaseapp.com",
+  projectId: "kensho-77268",
+  storageBucket: "kensho-77268.appspot.com",
+  messagingSenderId: "358960695891",
+  appId: "1:358960695891:web:6184ad8ed3a491c5c514a6",
+  measurementId: "G-7KVG50XWBS"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 function App() {
   return (
     <Router>

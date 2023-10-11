@@ -118,13 +118,7 @@
     }
     
 }
-@media only screen and (min-width: 78.9376em) and (max-width: 89.9374em){
-
-}
-@media only screen and (min-width: 46.1876em) and (max-width: 78.9375em){
-
-}
-@media only screen and (max-width : 46.1875em){
+@media only screen and (max-width: 89.9374em){
     .OProducts-body_p{
         grid-template-columns: 100%;
     }
@@ -135,6 +129,11 @@
         grid-template-columns: 100%;
         gap: 30px;
     }
+}
+@media only screen and (max-width: 78.9375em){
+    
+}
+@media only screen and (max-width : 46.1875em){
     .OProducts-body_data_item{
         height: 850px;
         display: flex;

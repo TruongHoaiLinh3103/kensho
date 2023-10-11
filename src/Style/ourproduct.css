@@ -40,17 +40,17 @@
         padding: 20px;
     }
 }
-@media only screen and (min-width: 46.1876em) and (max-width: 78.9375em){
+@media only screen and (max-width: 78.9375em){
     .OurProduct-body{
         padding: 20px;
     }
 }
 @media only screen and (max-width : 46.1875em){
+    .OurProduct-body{
+        padding: 20px;
+    }
     .OurProduct-body_box{
         grid-template-columns: 100%;
         row-gap: 10%;
-    }
-    .OurProduct-body{
-        padding: 20px;
     }
 }

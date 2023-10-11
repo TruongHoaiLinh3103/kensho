@@ -36,7 +36,7 @@ export const BOXHEADER = [
     },
     {
         id: 8,
-        img: "https://gstatic.gvn360.com/2021/06/Mot-vu-tru-moi_-11-scaled.jpg",
+        img: "https://i.pinimg.com/originals/0f/93/3b/0f933bc03f58942ba7c80ca13e2a444a.jpg",
         title: "IMPACT"
     },
 ]
