@@ -7,7 +7,9 @@ import {
   } from "react-router-dom";
 import { ABOUTSOLUTIONS } from "../../Story/ABOUTSOLUTIONS";
 import useFetchAOS from '../../Utils/useFetchAOS';
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 const AboutSolutions = () => {
+    const history = useHistory();
     useFetchAOS();
     return (
         <Router>
@@ -28,7 +30,7 @@ const AboutSolutions = () => {
                                             <li data-aos="fade-right">{item.lithree}</li>
                                             <li data-aos="fade-right">{item.lifour}</li>
                                         </ul>
-                                        <button data-aos="fade-right">Talk to us <i className="fa-solid fa-angle-right"></i></button>
+                                        <button data-aos="fade-right" onClick={() => {history.push("/contactus")}}>Talk to us <i className="fa-solid fa-angle-right"></i></button>
                                     </div>
                                     <div className='AboutSolutions-item' style={{backgroundColor :"#d2e0df"}}>
                                         <video data-aos="fade-up" autoPlay loop muted poster="https://static.kensho.com/video/HumanIntheloop.jpg">
@@ -46,7 +48,7 @@ const AboutSolutions = () => {
                                             <li data-aos="fade-right">{item.litwo}</li>
                                             <li data-aos="fade-right">{item.lithree}</li>
                                         </ul>
-                                        <button data-aos="fade-left">Free Trial <i className="fa-solid fa-angle-right"></i></button>
+                                        <button data-aos="fade-left" onClick={() => {history.push("/freetrial")}}>Free Trial <i className="fa-solid fa-angle-right"></i></button>
                                     </div>
                                     <div className='AboutSolutions-item' style={{backgroundColor :"#d2e0df", zIndex: "2"}}>
                                         <video data-aos="zoom-out" autoPlay muted loop poster="https://static.kensho.com/video/ScribeAI.jpg" style={{width: "1420px"}}>

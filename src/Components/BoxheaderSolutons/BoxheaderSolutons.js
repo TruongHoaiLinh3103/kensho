@@ -22,7 +22,6 @@ const BoxheaderSolutons = () => {
                                 <div className='BoxheaderSolutons-box'>
                                     <img src={item.img} alt='' data-aos="fade-up"/>
                                     <p data-aos="fade-up">{item.pra}</p>
-                                    <button data-aos="fade-up">Get Started</button>
                                 </div>
                             </div>
                         )
@@ -37,7 +36,6 @@ const BoxheaderSolutons = () => {
                                 <div className='BoxheaderSolutons-box'>
                                     <img data-aos="fade-up" src={item.img} alt=''/>
                                     <p data-aos="fade-up">{item.pra}</p>
-                                    <button data-aos="fade-up">Get Started</button>
                                 </div>
                             </div>
                         )
@@ -52,7 +50,6 @@ const BoxheaderSolutons = () => {
                                 <div className='BoxheaderSolutons-box'>
                                     <img data-aos="fade-up" src={item.img} alt=''/>
                                     <p data-aos="fade-up">{item.pra}</p>
-                                    <button data-aos="fade-up">Get Started</button>
                                 </div>
                             </div>
                         )
@@ -67,7 +64,6 @@ const BoxheaderSolutons = () => {
                                 <div className='BoxheaderSolutons-box'>
                                     <img data-aos="fade-up" src={item.img} alt=''/>
                                     <p data-aos="fade-up">{item.pra}</p>
-                                    <button data-aos="fade-up">Get Started</button>
                                 </div>
                             </div>
                         )

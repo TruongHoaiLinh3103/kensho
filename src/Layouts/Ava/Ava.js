@@ -5,7 +5,7 @@ import useFetchAOS from '../../Utils/useFetchAOS';
 const Ava = () => {
     useFetchAOS();
     return (
-        <div className='Ava'>
+        <div className='Ava' id="Ava">
             <div className='maxWidth1400px Ava-body'>
                 <h3 data-aos="fade-up">AVAILABLE POSITIONS</h3>
                 <div className='Ava-body_box'>
@@ -15,7 +15,7 @@ const Ava = () => {
                                 <h4>{item.title}</h4>
                                 <p>{item.role}</p>
                                 <div className='Ava-body_box_item_btn'>
-                                    <button>{item.link}</button>
+                                    <button><a href='mailto:eagleremlinh@gmail.com'>{item.link}</a></button>
                                 </div>
                             </div>
                         )

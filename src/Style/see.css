@@ -101,4 +101,12 @@
     .See-body_box{
         display: none;
     }
+    .See-body_pra h2{
+        text-align: center;
+        width: 100%;
+    }
+    .See-body_pra p{
+        text-align: center;
+        width: 100%;
+    }
 }

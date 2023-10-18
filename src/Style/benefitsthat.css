@@ -48,4 +48,9 @@
     .BenefitsThat-body_box{
         grid-template-columns: 100%;
     }
+    .BenefitsThat-body_box h2,
+    .BenefitsThat-body_box p{
+        width: 100%;
+        text-align: center;
+    }
 }

@@ -2,7 +2,9 @@ import React from 'react';
 import "../../Style/seeforyou.css";
 import video  from "../../Assets/video/3542897851763650032.mp4";
 import useFetchAOS from '../../Utils/useFetchAOS';
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 const Seeforyou = () => {
+    const history = useHistory()
     useFetchAOS();
     return (
         <div className='Seeforyou'>
@@ -27,7 +29,7 @@ const Seeforyou = () => {
                     </div>
                 </div>
                 <div className='Seeforyou-body_btn'>
-                    <button data-aos="zoom-out">Get Started</button>
+                    <button data-aos="zoom-out" onClick={() => {history.push("/freetrial")}}>Get Started</button>
                 </div>
             </div>
         </div>

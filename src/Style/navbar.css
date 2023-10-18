@@ -8,11 +8,6 @@
     position: fixed;
     top: 0;
     z-index: 20;
-    opacity: 0;
-    transition: .5s ease-out;
-}
-.navbar:hover{
-    opacity: 1;
 }
 .navbar-logoAndTabbar{
     display: flex;

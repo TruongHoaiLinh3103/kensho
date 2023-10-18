@@ -14,9 +14,6 @@ Route,
 const OurValuas = () => {
     useFetchAOS();
     const history = useHistory();
-    const nextcareersCulture = () => {
-        history.push("/lifeatkensho#Culture");
-    }
     return (
         <Router>
             <Switch>
@@ -46,7 +43,7 @@ const OurValuas = () => {
                                     })}
                                 </div>
                                 <div className='OurValuas-body_container_btn'>
-                                    <button onClick={() => nextcareersCulture()} data-aos="fade-down">Learn More</button>
+                                    <button data-aos="fade-down">Learn More</button>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +58,7 @@ const OurValuas = () => {
                                     <h4 data-aos="fade-right" style={{color: "white"}}>Team Impact is passionate about solving problems in arenas where there are opportunities to make meaningful contributions with our skills. The current working groups are Data Journalism, Climate Impact and Education Equity.</h4>
                                 </div>
                                 <div className='OurWork-body_box_item'>
-                                    <button data-aos="fade-left">Read about Team Impact’s projects and events on our blog</button>
+                                    <button data-aos="fade-left" style={{margin: "0px 20px"}}>Read about Team Impact’s projects and events on our blog</button>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +185,7 @@ const OurValuas = () => {
                                     <h4 data-aos="fade-right" style={{color: "black"}}>Find our developer documentation, for building tools with the NERD’s APIs and more</h4>
                                 </div>
                                 <div className='OurWork-body_box_item'>
-                                    <button data-aos="fade-left" style={{color: "black",border: "1px solid black", cursor: "pointer"}}>NERD Developer Docs</button>
+                                    <button data-aos="fade-left" style={{color: "black",border: "1px solid black", cursor: "pointer"}}>Scribe Developer Docs</button>
                                 </div>
                             </div>
                         </div>

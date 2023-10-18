@@ -100,4 +100,7 @@
     .Aboutus{
         grid-template-columns: 100%;
     }
+    .Aboutus_item{
+        text-align: center;
+    }
 }

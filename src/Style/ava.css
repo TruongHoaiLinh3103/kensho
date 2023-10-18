@@ -49,14 +49,20 @@
     padding: 5px 10px;
     border: 1px var(--my-color) solid;
     background-color: white;
-    color: var(--my-color);
     cursor: pointer;
     transition: .3s all ease-in;
     border-radius: 3px;
 }
+.Ava-body_box_item_btn button a{
+    text-decoration: none;
+    color: var(--my-color);
+}
 .Ava-body_box_item_btn button:hover{
     background-color: #50afc6;
+}
+.Ava-body_box_item_btn button:hover a{
     color: white;
+    transition: .3s all ease-in;
 }
 @media only screen and (max-width: 89.9374em){
     .Ava{

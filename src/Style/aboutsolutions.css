@@ -90,5 +90,10 @@
     }
 }
 @media only screen and (max-width : 46.1875em){
-    
+    .AboutSolutions-item h3{
+        text-align: center;
+    }
+    .AboutSolutions-item h2{
+        text-align: center;
+    }
 }

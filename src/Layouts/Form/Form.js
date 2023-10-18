@@ -6,6 +6,8 @@ const Form = () => {
     return (
         <div className='Form'>
             <form className='Form-form'>
+                <h3 data-aos="fade-up">We’d love to hear from you!</h3>
+                <p data-aos="fade-up">Let’s chat about Kensho products, pricing, or ways our team can help your business!</p>
                 <div className='Form-form_item' data-aos="fade-up">
                     <div className='Form-form_item_label'>
                         First Name<span>*</span> 

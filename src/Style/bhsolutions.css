@@ -35,23 +35,6 @@
     margin-top: 20px;
     padding: 0px 20px;
 }
-.BoxheaderSolutons-box button{
-    padding: 15px 30px;
-    font-size: 18px;
-    text-transform: uppercase;
-    background-color: #fff0;
-    border: 1px solid white;
-    color: white;
-    margin-top: 100px;
-    font-weight: 400;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.BoxheaderSolutons-box button:hover{
-    background-color: var(--my-color);
-    border: 1px solid var(--my-color);
-    transition: all .3s linear;
-}
 @media only screen and (max-width: 89.9374em){
     
 }
