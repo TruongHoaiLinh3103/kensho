@@ -21,8 +21,6 @@ const Navbar = () => {
                     <li className="navbar-Tabbar_li solutions-box"><NavLink to="/solutions">Solution
                         <div className='solutions-box_navbar'>
                             <ul className='solutions-box_navbar_ul'>
-                                <li className="solutions-box_navbar_ul_li"><NavLink to='/solutions'>All Slotions</NavLink></li>
-                                <li className="solutions-box_navbar_ul_line"></li>
                                 <li className="solutions-box_navbar_ul_li"><NavLink to='/scribe'>Scribe</NavLink></li>
                                 <li className="solutions-box_navbar_ul_line"></li>
                                 <li className="solutions-box_navbar_ul_li"><NavLink to='/nerd'>NERD</NavLink></li>
@@ -38,10 +36,6 @@ const Navbar = () => {
                     <li className="navbar-Tabbar_li lifeatkensho-box"><NavLink to="/lifeatkensho">Life at Kensho
                         <div className='lifeatkensho-box_navbar'>
                             <ul className='lifeatkensho-box_navbar_ul'>
-                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/lifeatkensho'>Available Positions</NavLink></li>
-                                <li className="lifeatkensho-box_navbar_ul_line"></li>
-                                <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/lifeatkensho'>Why Join Us?</NavLink></li>
-                                <li className="lifeatkensho-box_navbar_ul_line"></li>
                                 <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/dei'>DEI</NavLink></li>
                                 <li className="lifeatkensho-box_navbar_ul_line"></li>
                                 <li className="lifeatkensho-box_navbar_ul_li"><NavLink to='/benefits'>Benefits</NavLink></li>
@@ -80,7 +74,6 @@ const Navbar = () => {
                         <button className="navbar-log-button" onClick={() => backContactUs()}>Contacts us</button>
                         <li className="navbar-Tabbar_li"><NavLink to="/solutions">Solution</NavLink></li>
                         <div className='solutions-navbar'>
-                            <li className="navbar-Tabbar_li"><NavLink to='/solutions'>All Slotions</NavLink></li>
                             <li className="navbar-Tabbar_li"><NavLink to='/scribe'>Scribe</NavLink></li>
                             <li className="navbar-Tabbar_li"><NavLink to='/nerd'>NERD</NavLink></li>
                             <li className="navbar-Tabbar_li"><NavLink to='/classify'>Classify</NavLink></li>
@@ -89,8 +82,6 @@ const Navbar = () => {
                         <li className="navbar-Tabbar_li"><NavLink to="/about">About</NavLink></li>
                         <li className="navbar-Tabbar_li"><NavLink to="/lifeatkensho">Life at Kensho</NavLink></li>
                             <div className='lifeatkensho-navbar'>
-                                <li className="navbar-Tabbar_li"><NavLink to='/lifeatkensho'>Available Positions</NavLink></li>
-                                <li className="navbar-Tabbar_li"><NavLink to='/lifeatkensho'>Why Join Us?</NavLink></li>
                                 <li className="navbar-Tabbar_li"><NavLink to='/dei'>DEI</NavLink></li>
                                 <li className="navbar-Tabbar_li"><NavLink to='/benefits'>Benefits</NavLink></li>
                                 <li className="navbar-Tabbar_li"><NavLink to='/impact'>Impact</NavLink></li>

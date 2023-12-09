@@ -1,7 +1,7 @@
 import React from 'react';
 import "../../Style/ourvaluas.css";
 import { OURVALUES } from "../../Story/OURVALUES";
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
+// import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 import useFetchAOS from '../../Utils/useFetchAOS';
 import { CASES } from '../../Story/CASES';
 import { CLASSIFY } from '../../Story/CLASSIFY';
@@ -13,7 +13,7 @@ Route,
 } from "react-router-dom";
 const OurValuas = () => {
     useFetchAOS();
-    const history = useHistory();
+    // const history = useHistory();
     return (
         <Router>
             <Switch>

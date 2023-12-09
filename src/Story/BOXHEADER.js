@@ -26,17 +26,17 @@ export const BOXHEADER = [
     },
     {
         id: 6,
-        img: "https://gvn360.com/wp-content/uploads/2020/07/Gearvn_v%C5%A9-tr%E1%BB%A5-m%E1%BB%9Bi_-19-1-scaled.jpg",
+        img: "https://pdp.edu.vn/wp-content/uploads/2021/01/hinh-nen-4k-tuyet-dep-cho-may-tinh.jpg",
         title: "DEI"
     },
     {
         id: 7,
-        img: "https://gvn360.com/wp-content/uploads/2020/07/Gearvn_v%C5%A9-tr%E1%BB%A5-m%E1%BB%9Bi_-2-scaled.jpg",
+        img: "https://pdp.edu.vn/wp-content/uploads/2021/01/hinh-nen-4k-tuyet-dep-cho-may-tinh.jpg",
         title: "BENEFITS"
     },
     {
         id: 8,
-        img: "https://i.pinimg.com/originals/0f/93/3b/0f933bc03f58942ba7c80ca13e2a444a.jpg",
+        img: "https://pdp.edu.vn/wp-content/uploads/2021/01/hinh-nen-4k-tuyet-dep-cho-may-tinh.jpg",
         title: "IMPACT"
     },
 ]

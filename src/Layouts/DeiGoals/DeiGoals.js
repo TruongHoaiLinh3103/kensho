@@ -7,7 +7,7 @@ const DeiGoals = () => {
         <div className='DeiGoals'>
             <div className='maxWidth1400px DeiGoals-body'>
                 <h3 data-aos="fade-up">DEI GOALS & HOW WE MEASURE THEM</h3>
-                <p data-aos="fade-up">Kensho has two primary goals for its DEI efforts with clear strategies for how to achieve and measure each.</p>
+                <p data-aos="fade-up" className='DeiGoals-body-des'>Kensho has two primary goals for its DEI efforts with clear strategies for how to achieve and measure each.</p>
                 <div className='DeiGoals-body_box'>
                     <div className='DeiGoals-body_box_item' data-aos="fade-left">
                         <h5>Goal 1</h5>

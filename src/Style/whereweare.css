@@ -72,5 +72,7 @@
     }
 }
 @media only screen and (max-width : 46.1875em){
-    
+    .WhereWeAre-body_item_detail h2{
+        text-align: center;
+    }
 }

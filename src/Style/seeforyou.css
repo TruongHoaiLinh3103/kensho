@@ -98,5 +98,6 @@
 @media only screen and (max-width : 46.1875em){
     .Seeforyou-body_box{
         grid-template-columns: 100%;
+        text-align: center;
     }
 }

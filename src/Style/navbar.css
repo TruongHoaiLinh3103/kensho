@@ -48,7 +48,7 @@
     position: absolute;
     top: 70px;
     left: 0;
-    height: 400px;
+    padding: 10px 0px;
     width: 200px;
     background-color: white;
     display: none;

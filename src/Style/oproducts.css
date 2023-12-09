@@ -140,4 +140,10 @@
         flex-direction: column;
         align-items: center;
     }
+    .OProducts-body_p h4{
+        text-align: center;
+    }
+    .OProducts-body_p p{
+        text-align: center;
+    }
 }

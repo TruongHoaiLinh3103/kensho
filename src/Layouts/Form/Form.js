@@ -321,8 +321,8 @@ const Form = () => {
                     <textarea name="overthinking" rows="4"></textarea>
                 </div>
                 <div className='Form-form_rules' data-aos="fade-up">
-                    <input type='checkbox'/>
-                    <p>I‘d like to receive product information, updates and promotions from Kensho.</p>
+                    <input type='checkbox' name="dieukhoan"/>
+                    <label htmlFor='dieukhoan'>I‘d like to receive product information, updates and promotions from Kensho.</label>
                 </div>
                 <div className='Form-form_item' data-aos="fade-up">
                     <button>CONTACT US</button>

@@ -53,4 +53,10 @@
         grid-template-columns: 100%;
         row-gap: 10%;
     }
+    .OurProduct-body_box h4{
+    text-align: center;
+}
+.OurProduct-body_box h5{
+    text-align: center;
+}
 }

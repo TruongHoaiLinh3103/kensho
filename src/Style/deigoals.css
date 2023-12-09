@@ -15,11 +15,12 @@
     margin: 0px 0px 90px;
     text-transform: uppercase;
 }
-.DeiGoals-body p{
+.DeiGoals-body-des{
     color: #ffffff;
     font-family: proxima-nova;
     font-size: 24px;
     line-height: 30px;
+    text-align: center;
 }
 .DeiGoals-body_box{
     display: grid;
@@ -49,8 +50,10 @@
         padding: 0px 20px;
     }
 }
-@media only screen and (min-width: 46.1876em) and (max-width: 78.9375em){
-    
+@media only screen and (max-width: 78.9375em){
+    .DeiGoals-body_box{
+        grid-template-columns: 100%;
+    }
 }
 @media only screen and (max-width : 46.1875em){
     

@@ -75,5 +75,7 @@
     }
 }
 @media only screen and (max-width : 46.1875em){
-    
+    .WhatWeDo-body_item_prf h2{
+        text-align: center;
+    }
 }

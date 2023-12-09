@@ -64,19 +64,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 320px;
-    margin-left: 30px;
+    margin: 0px 40px;
 }
 .Form-form_rules input{
     margin-right: 10px;
     accent-color: blue;
     cursor: pointer;
 }
-.Form-form_rules p{
+.Form-form_rules label{
     color: #444444;
     font-family: proxima-nova;
     font-size: 13px;
-    line-height: 20.8px;
 }
 .Form-form_item button{
     align-items: center;

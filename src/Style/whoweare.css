@@ -60,5 +60,8 @@
     }
 }
 @media only screen and (max-width : 46.1875em){
+    .WhoWeAre-body_item h2{
+        text-align: center;
+    }
     
 }
